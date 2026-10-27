@@ -1,0 +1,23 @@
+Check,Result
+Wrapper runs,6750
+Duplicate run ids,0
+"(Dataset, fold, seed) units",150
+Units with more than one generation-0 hash,0
+Hash-registry files,500
+Runs without registry entry,0
+Runs whose hash differs from the registry,0
+Registry entries that disagree across variants,0
+Units whose generation-0 best J differs across methods,0
+"Convergence warnings, inner fitness",0
+"Convergence warnings, outer test",0
+Runs using the Mice GroupKFold fallback,0
+Environment ids (wrapper runs),097e4963007e (6750)
+Environment ids (classical tasks),"f068f11779a3 (55), 097e4963007e (5)"
+"Convergence warnings, classical tasks",35
+Chi-square/MI tasks with k at the grid boundary,10
+L1-LR tasks with C at the grid boundary,5
+LLM runs,1200
+LLM calls,6780
+Invalid first answers,0
+Repaired answers,0
+Fallbacks,0

@@ -1,0 +1,76 @@
+Dataset,LLM (pooled),Method,TVD
+Turkish,LLM Qwen2.5-14B,Const COMPACT-1,0.904
+Turkish,LLM Qwen2.5-14B,Const EXPLORE-1,0.692
+Turkish,LLM Qwen2.5-14B,Const EXPLORE-2,0.548
+Turkish,LLM Qwen2.5-14B,Mixture EXPLORE-2/COMPACT-2 50/50,0.424
+Turkish,LLM Qwen2.5-14B,Mixture EXPLORE-2/COMPACT-2 67/33,0.424
+Turkish,LLM Qwen2.5-7B,Const COMPACT-1,0
+Turkish,LLM Qwen2.5-7B,Const EXPLORE-1,1
+Turkish,LLM Qwen2.5-7B,Const EXPLORE-2,1
+Turkish,LLM Qwen2.5-7B,Mixture EXPLORE-2/COMPACT-2 50/50,1
+Turkish,LLM Qwen2.5-7B,Mixture EXPLORE-2/COMPACT-2 67/33,1
+Turkish,LLM Gemini 3.6 Flash,Const COMPACT-1,0.996
+Turkish,LLM Gemini 3.6 Flash,Const EXPLORE-1,1
+Turkish,LLM Gemini 3.6 Flash,Const EXPLORE-2,1
+Turkish,LLM Gemini 3.6 Flash,Mixture EXPLORE-2/COMPACT-2 50/50,0.528
+Turkish,LLM Gemini 3.6 Flash,Mixture EXPLORE-2/COMPACT-2 67/33,0.716
+Turkish,LLM Llama-3.1-8B,Const COMPACT-1,1
+Turkish,LLM Llama-3.1-8B,Const EXPLORE-1,1
+Turkish,LLM Llama-3.1-8B,Const EXPLORE-2,1
+Turkish,LLM Llama-3.1-8B,Mixture EXPLORE-2/COMPACT-2 50/50,1
+Turkish,LLM Llama-3.1-8B,Mixture EXPLORE-2/COMPACT-2 67/33,1
+Turkish,LLM Phi-4-mini,Const COMPACT-1,1
+Turkish,LLM Phi-4-mini,Const EXPLORE-1,1
+Turkish,LLM Phi-4-mini,Const EXPLORE-2,0.03187250996
+Turkish,LLM Phi-4-mini,Mixture EXPLORE-2/COMPACT-2 50/50,0.472
+Turkish,LLM Phi-4-mini,Mixture EXPLORE-2/COMPACT-2 67/33,0.284
+Mice,LLM Qwen2.5-14B,Const COMPACT-1,0.892733564
+Mice,LLM Qwen2.5-14B,Const EXPLORE-1,0.7404844291
+Mice,LLM Qwen2.5-14B,Const EXPLORE-2,0.6297577855
+Mice,LLM Qwen2.5-14B,Mixture EXPLORE-2/COMPACT-2 50/50,0.4982698962
+Mice,LLM Qwen2.5-14B,Mixture EXPLORE-2/COMPACT-2 67/33,0.4982698962
+Mice,LLM Qwen2.5-7B,Const COMPACT-1,0
+Mice,LLM Qwen2.5-7B,Const EXPLORE-1,1
+Mice,LLM Qwen2.5-7B,Const EXPLORE-2,1
+Mice,LLM Qwen2.5-7B,Mixture EXPLORE-2/COMPACT-2 50/50,1
+Mice,LLM Qwen2.5-7B,Mixture EXPLORE-2/COMPACT-2 67/33,1
+Mice,LLM Gemini 3.6 Flash,Const COMPACT-1,0.9830508475
+Mice,LLM Gemini 3.6 Flash,Const EXPLORE-1,1
+Mice,LLM Gemini 3.6 Flash,Const EXPLORE-2,0.8711864407
+Mice,LLM Gemini 3.6 Flash,Mixture EXPLORE-2/COMPACT-2 50/50,0.5525423729
+Mice,LLM Gemini 3.6 Flash,Mixture EXPLORE-2/COMPACT-2 67/33,0.5799583705
+Mice,LLM Llama-3.1-8B,Const COMPACT-1,1
+Mice,LLM Llama-3.1-8B,Const EXPLORE-1,1
+Mice,LLM Llama-3.1-8B,Const EXPLORE-2,1
+Mice,LLM Llama-3.1-8B,Mixture EXPLORE-2/COMPACT-2 50/50,1
+Mice,LLM Llama-3.1-8B,Mixture EXPLORE-2/COMPACT-2 67/33,1
+Mice,LLM Phi-4-mini,Const COMPACT-1,1
+Mice,LLM Phi-4-mini,Const EXPLORE-1,1
+Mice,LLM Phi-4-mini,Const EXPLORE-2,0.0176056338
+Mice,LLM Phi-4-mini,Mixture EXPLORE-2/COMPACT-2 50/50,0.4596491228
+Mice,LLM Phi-4-mini,Mixture EXPLORE-2/COMPACT-2 67/33,0.2912280702
+Arrhythmia,LLM Qwen2.5-14B,Const COMPACT-1,0.8656716418
+Arrhythmia,LLM Qwen2.5-14B,Const EXPLORE-1,0.7574626866
+Arrhythmia,LLM Qwen2.5-14B,Const EXPLORE-2,0.6082089552
+Arrhythmia,LLM Qwen2.5-14B,Mixture EXPLORE-2/COMPACT-2 50/50,0.4701492537
+Arrhythmia,LLM Qwen2.5-14B,Mixture EXPLORE-2/COMPACT-2 67/33,0.4701492537
+Arrhythmia,LLM Qwen2.5-7B,Const COMPACT-1,0
+Arrhythmia,LLM Qwen2.5-7B,Const EXPLORE-1,1
+Arrhythmia,LLM Qwen2.5-7B,Const EXPLORE-2,1
+Arrhythmia,LLM Qwen2.5-7B,Mixture EXPLORE-2/COMPACT-2 50/50,1
+Arrhythmia,LLM Qwen2.5-7B,Mixture EXPLORE-2/COMPACT-2 67/33,1
+Arrhythmia,LLM Gemini 3.6 Flash,Const COMPACT-1,0.9925373134
+Arrhythmia,LLM Gemini 3.6 Flash,Const EXPLORE-1,1
+Arrhythmia,LLM Gemini 3.6 Flash,Const EXPLORE-2,0.9104477612
+Arrhythmia,LLM Gemini 3.6 Flash,Mixture EXPLORE-2/COMPACT-2 50/50,0.4312024782
+Arrhythmia,LLM Gemini 3.6 Flash,Mixture EXPLORE-2/COMPACT-2 67/33,0.6322522725
+Arrhythmia,LLM Llama-3.1-8B,Const COMPACT-1,1
+Arrhythmia,LLM Llama-3.1-8B,Const EXPLORE-1,1
+Arrhythmia,LLM Llama-3.1-8B,Const EXPLORE-2,1
+Arrhythmia,LLM Llama-3.1-8B,Mixture EXPLORE-2/COMPACT-2 50/50,1
+Arrhythmia,LLM Llama-3.1-8B,Mixture EXPLORE-2/COMPACT-2 67/33,1
+Arrhythmia,LLM Phi-4-mini,Const COMPACT-1,1
+Arrhythmia,LLM Phi-4-mini,Const EXPLORE-1,1
+Arrhythmia,LLM Phi-4-mini,Const EXPLORE-2,0.01498127341
+Arrhythmia,LLM Phi-4-mini,Mixture EXPLORE-2/COMPACT-2 50/50,0.479245283
+Arrhythmia,LLM Phi-4-mini,Mixture EXPLORE-2/COMPACT-2 67/33,0.2781954887

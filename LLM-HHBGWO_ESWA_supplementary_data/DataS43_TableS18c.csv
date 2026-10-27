@@ -1,0 +1,40 @@
+Model,LLM (pooled),Dataset,Depth,Excluded fold,n,Training accuracy,CV accuracy,Majority arm,Majority share
+"Tree, Gemini, Arrhythmia",Gemini 3.6 Flash,Arrhythmia,3,,268,0.7276119403,0.6793850454,COMPACT-2,0.5335820896
+"Tree, Gemini, Arrhythmia_cf0",Gemini 3.6 Flash,Arrhythmia,3,0,215,0.7348837209,0.6279069767,COMPACT-2,0.5162790698
+"Tree, Gemini, Arrhythmia_cf1",Gemini 3.6 Flash,Arrhythmia,3,1,214,0.7523364486,0.6635658915,COMPACT-2,0.546728972
+"Tree, Gemini, Arrhythmia_cf2",Gemini 3.6 Flash,Arrhythmia,3,2,215,0.7302325581,0.6604651163,COMPACT-2,0.5534883721
+"Tree, Gemini, Arrhythmia_cf3",Gemini 3.6 Flash,Arrhythmia,3,3,215,0.7627906977,0.6837209302,COMPACT-2,0.5302325581
+"Tree, Gemini, Arrhythmia_cf4",Gemini 3.6 Flash,Arrhythmia,3,4,213,0.7276995305,0.6619047619,COMPACT-2,0.5211267606
+"Tree, Gemini, Mice",Gemini 3.6 Flash,Mice,3,,295,0.5694915254,0.4711864407,COMPACT-2,0.3186440678
+"Tree, Gemini, Mice_cf0",Gemini 3.6 Flash,Mice,3,0,237,0.6033755274,0.5486702128,COMPACT-2,0.3206751055
+"Tree, Gemini, Mice_cf1",Gemini 3.6 Flash,Mice,3,1,235,0.5744680851,0.3829787234,COMPACT-2,0.3276595745
+"Tree, Gemini, Mice_cf2",Gemini 3.6 Flash,Mice,3,2,237,0.5400843882,0.4686170213,COMPACT-2,0.3037974684
+"Tree, Gemini, Mice_cf3",Gemini 3.6 Flash,Mice,3,3,235,0.5659574468,0.4765957447,COMPACT-2,0.314893617
+"Tree, Gemini, Mice_cf4",Gemini 3.6 Flash,Mice,3,4,236,0.4957627119,0.4109929078,COMPACT-2,0.3262711864
+"Tree, Gemini, Turkish",Gemini 3.6 Flash,Turkish,3,,250,0.912,0.836,COMPACT-2,0.84
+"Tree, Gemini, Turkish_cf0",Gemini 3.6 Flash,Turkish,3,0,200,0.915,0.825,COMPACT-2,0.85
+"Tree, Gemini, Turkish_cf1",Gemini 3.6 Flash,Turkish,3,1,200,0.915,0.83,COMPACT-2,0.825
+"Tree, Gemini, Turkish_cf2",Gemini 3.6 Flash,Turkish,3,2,200,0.925,0.835,COMPACT-2,0.85
+"Tree, Gemini, Turkish_cf3",Gemini 3.6 Flash,Turkish,3,3,200,0.86,0.84,COMPACT-2,0.835
+"Tree, Gemini, Turkish_cf4",Gemini 3.6 Flash,Turkish,3,4,200,0.9,0.785,COMPACT-2,0.84
+"Tree, Qwen-14B, Arrhythmia",Qwen2.5-14B,Arrhythmia,3,,268,0.6753731343,0.6185185185,EXPLORE-2,0.3917910448
+"Tree, Qwen-14B, Arrhythmia_cf0",Qwen2.5-14B,Arrhythmia,3,0,215,0.7069767442,0.6418604651,EXPLORE-2,0.3906976744
+"Tree, Qwen-14B, Arrhythmia_cf1",Qwen2.5-14B,Arrhythmia,3,1,216,0.7083333333,0.6244186047,EXPLORE-2,0.4074074074
+"Tree, Qwen-14B, Arrhythmia_cf2",Qwen2.5-14B,Arrhythmia,3,2,215,0.6744186047,0.5627906977,EXPLORE-2,0.376744186
+"Tree, Qwen-14B, Arrhythmia_cf3",Qwen2.5-14B,Arrhythmia,3,3,210,0.7095238095,0.6285714286,EXPLORE-2,0.3857142857
+"Tree, Qwen-14B, Arrhythmia_cf4",Qwen2.5-14B,Arrhythmia,3,4,216,0.6759259259,0.5650105708,EXPLORE-2,0.3981481481
+"Tree, Qwen-14B, Arrhythmia_d5",Qwen2.5-14B,Arrhythmia,5,,268,0.7686567164,0.5442348008,EXPLORE-2,0.3917910448
+"Tree, Qwen-14B, Mice",Qwen2.5-14B,Mice,3,,289,0.6124567474,0.539322444,EXPLORE-2,0.3702422145
+"Tree, Qwen-14B, Mice_cf0",Qwen2.5-14B,Mice,3,0,231,0.6147186147,0.5408880666,EXPLORE-2,0.3766233766
+"Tree, Qwen-14B, Mice_cf1",Qwen2.5-14B,Mice,3,1,232,0.625,0.4997224792,EXPLORE-2,0.3922413793
+"Tree, Qwen-14B, Mice_cf2",Qwen2.5-14B,Mice,3,2,231,0.5887445887,0.4889805097,EXPLORE-2,0.3766233766
+"Tree, Qwen-14B, Mice_cf3",Qwen2.5-14B,Mice,3,3,231,0.6147186147,0.5363552266,EXPLORE-2,0.3593073593
+"Tree, Qwen-14B, Mice_cf4",Qwen2.5-14B,Mice,3,4,231,0.6147186147,0.4976873265,EXPLORE-2,0.3463203463
+"Tree, Qwen-14B, Mice_d5",Qwen2.5-14B,Mice,5,,289,0.6989619377,0.5081669691,EXPLORE-2,0.3702422145
+"Tree, Qwen-14B, Turkish",Qwen2.5-14B,Turkish,3,,250,0.768,0.688,EXPLORE-2,0.452
+"Tree, Qwen-14B, Turkish_cf0",Qwen2.5-14B,Turkish,3,0,200,0.765,0.625,EXPLORE-2,0.425
+"Tree, Qwen-14B, Turkish_cf1",Qwen2.5-14B,Turkish,3,1,200,0.785,0.6848334087,EXPLORE-2,0.465
+"Tree, Qwen-14B, Turkish_cf2",Qwen2.5-14B,Turkish,3,2,200,0.79,0.655,EXPLORE-2,0.455
+"Tree, Qwen-14B, Turkish_cf3",Qwen2.5-14B,Turkish,3,3,200,0.765,0.679933665,EXPLORE-2,0.445
+"Tree, Qwen-14B, Turkish_cf4",Qwen2.5-14B,Turkish,3,4,200,0.82,0.745,EXPLORE-2,0.47
+"Tree, Qwen-14B, Turkish_d5",Qwen2.5-14B,Turkish,5,,250,0.856,0.66,EXPLORE-2,0.452

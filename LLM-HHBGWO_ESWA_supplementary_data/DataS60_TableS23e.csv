@@ -1,0 +1,12 @@
+Baseline,Evidence
+Rule-HH (online running-quantile thresholds),final masks identical to Const EXPLORE-2 in 127/150 units
+FRRMAB-HH (cold start),"uses a single arm in all decisions of 77% of 150 runs (lock-in after the first positive credit, running-max normalization)"
+UCB-HH warm,final masks identical to Const COMPACT-2 in 100/150 units; single arm in 84% of runs; on Mice identical to BGWO in 36/50
+FRRMAB-HH warm,final masks identical to Const COMPACT-2 in 100/150 units; single arm in 100% of runs; on Mice identical to BGWO in 50/50
+Operator OPPOSITION,"acceptance 0.14% of targeted wolves (steep core, all BGWO-family decisions)"
+Operator RESTART,"acceptance 7.80% of targeted wolves (steep core, all BGWO-family decisions)"
+Const OPPOSITION-2 vs Const RESTART-2,identical final masks in 52/150 units
+Llama-3.1-8B (original prompt),98.1% fallbacks to KEEP-1; final masks identical to BGWO in 140/150 units
+Llama-3.1-8B constrained intensity,"COMPACT-3 in 100.0% of 806 decisions, i.e. a constant policy (identical to Const COMPACT-3 in 150/150 units; Table S31h)"
+Qwen2.5-7B,identical to Const COMPACT-1 in 150/150 units
+Phi-4-mini,identical to Const EXPLORE-2 in 146/150 units

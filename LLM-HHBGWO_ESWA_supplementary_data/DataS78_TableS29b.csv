@@ -1,0 +1,88 @@
+Experiment,Backbone,Variant,FE_max,Transfer,Dataset,Method,Planned,Unit,Completed,Clean,Status
+"Core cell (steep, FE 600)",Qwen-7B,Informed prompt (base),600,Steep,Turkish,LLM Qwen2.5-7B,50,runs,50,50,complete
+"Core cell (steep, FE 600)",Qwen-7B,Informed prompt (base),600,Steep,Mice,LLM Qwen2.5-7B,50,runs,50,50,complete
+"Core cell (steep, FE 600)",Qwen-7B,Informed prompt (base),600,Steep,Arrhythmia,LLM Qwen2.5-7B,50,runs,50,50,complete
+"Core cell (steep, FE 600)",Qwen2.5-14B,Informed prompt (base),600,Steep,Turkish,LLM Qwen2.5-14B,50,runs,50,50,complete
+"Core cell (steep, FE 600)",Qwen2.5-14B,Informed prompt (base),600,Steep,Mice,LLM Qwen2.5-14B,50,runs,50,50,complete
+"Core cell (steep, FE 600)",Qwen2.5-14B,Informed prompt (base),600,Steep,Arrhythmia,LLM Qwen2.5-14B,50,runs,50,50,complete
+"Core cell (steep, FE 600)",Phi-4-mini,Informed prompt (base),600,Steep,Turkish,LLM Phi-4-mini,50,runs,50,50,complete
+"Core cell (steep, FE 600)",Phi-4-mini,Informed prompt (base),600,Steep,Mice,LLM Phi-4-mini,50,runs,50,50,complete
+"Core cell (steep, FE 600)",Phi-4-mini,Informed prompt (base),600,Steep,Arrhythmia,LLM Phi-4-mini,50,runs,50,50,complete
+"Core cell (steep, FE 600)",Gemini 3.6 Flash,Informed prompt (base),600,Steep,Turkish,LLM Gemini 3.6 Flash,50,runs,50,50,complete
+"Core cell (steep, FE 600)",Gemini 3.6 Flash,Informed prompt (base),600,Steep,Mice,LLM Gemini 3.6 Flash,50,runs,50,50,complete
+"Core cell (steep, FE 600)",Gemini 3.6 Flash,Informed prompt (base),600,Steep,Arrhythmia,LLM Gemini 3.6 Flash,50,runs,50,50,complete
+"Core cell (steep, FE 600)",Llama-8B,Informed prompt (base),600,Steep,Turkish,LLM Llama-3.1-8B,50,runs,50,50,complete
+"Core cell (steep, FE 600)",Llama-8B,Informed prompt (base),600,Steep,Mice,LLM Llama-3.1-8B,50,runs,50,50,complete
+"Core cell (steep, FE 600)",Llama-8B,Informed prompt (base),600,Steep,Arrhythmia,LLM Llama-3.1-8B,50,runs,50,50,complete
+Llama constrained intensity,Llama-8B,Informed prompt (base),600,Steep,Turkish,Llama-3.1-8B (constrained),50,runs,50,50,complete
+Llama constrained intensity,Llama-8B,Informed prompt (base),600,Steep,Mice,Llama-3.1-8B (constrained),50,runs,50,50,complete
+Llama constrained intensity,Llama-8B,Informed prompt (base),600,Steep,Arrhythmia,Llama-3.1-8B (constrained),50,runs,50,50,complete
+"Qwen-14B int8, Turkish core",Qwen-14B int8,Informed prompt (base),600,Steep,Turkish,Qwen-14B (8-bit),50,runs,50,50,complete
+"High authority, ρ = 0.3",Qwen2.5-14B,"High authority, ρ = 0.3",600,Steep,Turkish,LLM Qwen2.5-14B,50,runs,50,50,complete
+"High authority, ρ = 0.3",Qwen2.5-14B,"High authority, ρ = 0.3",600,Steep,Arrhythmia,LLM Qwen2.5-14B,50,runs,50,50,complete
+"High authority, ρ = 0.3",Gemini 3.6 Flash,"High authority, ρ = 0.3",600,Steep,Turkish,LLM Gemini 3.6 Flash,50,runs,50,50,complete
+"High authority, ρ = 0.3",Gemini 3.6 Flash,"High authority, ρ = 0.3",600,Steep,Arrhythmia,LLM Gemini 3.6 Flash,50,runs,50,50,complete
+"High authority, ρ = 0.5",Qwen2.5-14B,"High authority, ρ = 0.5",600,Steep,Turkish,LLM Qwen2.5-14B,50,runs,50,50,complete
+"High authority, ρ = 0.5",Qwen2.5-14B,"High authority, ρ = 0.5",600,Steep,Arrhythmia,LLM Qwen2.5-14B,50,runs,50,50,complete
+"High authority, ρ = 0.5",Gemini 3.6 Flash,"High authority, ρ = 0.5",600,Steep,Turkish,LLM Gemini 3.6 Flash,50,runs,0,0,not completed
+"High authority, ρ = 0.5",Gemini 3.6 Flash,"High authority, ρ = 0.5",600,Steep,Arrhythmia,LLM Gemini 3.6 Flash,50,runs,0,0,not completed
+wJ = 0.99,Qwen2.5-14B,wJ = 0.99,600,Steep,Turkish,LLM Qwen2.5-14B,50,runs,50,50,complete
+wJ = 0.99,Qwen2.5-14B,wJ = 0.99,600,Steep,Arrhythmia,LLM Qwen2.5-14B,50,runs,50,50,complete
+bGWO1 transfer,Qwen2.5-14B,Informed prompt (base),600,bGWO1,Arrhythmia,LLM Qwen2.5-14B,50,runs,50,50,complete
+bGWO1 transfer,Qwen2.5-14B,Informed prompt (base),600,bGWO1,Turkish,LLM Qwen2.5-14B,50,runs,0,0,not run
+V-shaped transfer,Qwen2.5-14B,Informed prompt (base),600,V-shaped,Arrhythmia,LLM Qwen2.5-14B,50,runs,50,50,complete
+"Repeated CV, partition 43",Qwen2.5-14B,Partition 43,600,Steep,Mice,LLM Qwen2.5-14B,50,runs,50,50,complete
+"Repeated CV, partition 43",Qwen2.5-14B,Partition 43,600,Steep,Arrhythmia,LLM Qwen2.5-14B,50,runs,50,50,complete
+"Repeated CV, partition 44",Qwen2.5-14B,Partition 44,600,Steep,Mice,LLM Qwen2.5-14B,50,runs,50,50,complete
+"Repeated CV, partition 44",Qwen2.5-14B,Partition 44,600,Steep,Arrhythmia,LLM Qwen2.5-14B,50,runs,50,50,complete
+No counters,Qwen2.5-14B,No counters,600,Steep,Turkish,LLM Qwen2.5-14B,50,runs,50,50,complete
+No counters,Qwen2.5-14B,No counters,600,Steep,Arrhythmia,LLM Qwen2.5-14B,50,runs,50,50,complete
+"FE = 3,000, B = 30",Qwen2.5-14B,"FE = 3,000, B = 30",3000,Steep,Mice,LLM Qwen2.5-14B,50,runs,50,50,complete
+"FE = 3,000, B = 30",Qwen2.5-14B,"FE = 3,000, B = 30",3000,Steep,Arrhythmia,LLM Qwen2.5-14B,50,runs,50,50,complete
+"Turkish, K = 3, B = 12",Qwen2.5-14B,"K = 3, B = 12",600,Steep,Turkish,LLM Qwen2.5-14B,50,runs,50,50,complete
+"Turkish, minimal prompt",Qwen2.5-14B,Minimal prompt (Campaign A),600,Steep,Turkish,LLM Qwen2.5-14B,50,runs,50,50,complete
+"Turkish, no credit history",Qwen2.5-14B,"Informed, no credit history",600,Steep,Turkish,LLM Qwen2.5-14B,50,runs,50,50,complete
+wJ = 0.99,Gemini 3.6 Flash,wJ = 0.99,600,Steep,Turkish,LLM Gemini 3.6 Flash,50,runs,50,50,complete
+wJ = 0.99,Gemini 3.6 Flash,wJ = 0.99,600,Steep,Arrhythmia,LLM Gemini 3.6 Flash,50,runs,50,50,complete
+bGWO1 transfer,Gemini 3.6 Flash,Informed prompt (base),600,bGWO1,Arrhythmia,LLM Gemini 3.6 Flash,50,runs,43,37,partial: 37 clean units
+bGWO1 transfer,Gemini 3.6 Flash,Informed prompt (base),600,bGWO1,Turkish,LLM Gemini 3.6 Flash,50,runs,0,0,not completed
+V-shaped transfer,Gemini 3.6 Flash,Informed prompt (base),600,V-shaped,Arrhythmia,LLM Gemini 3.6 Flash,50,runs,42,36,partial: 36 clean units
+V-shaped transfer,Gemini 3.6 Flash,Informed prompt (base),600,V-shaped,Turkish,LLM Gemini 3.6 Flash,50,runs,0,0,not completed
+"Repeated CV, partition 43",Gemini 3.6 Flash,Partition 43,600,Steep,Mice,LLM Gemini 3.6 Flash,50,runs,50,50,complete
+"Repeated CV, partition 43",Gemini 3.6 Flash,Partition 43,600,Steep,Arrhythmia,LLM Gemini 3.6 Flash,50,runs,50,50,complete
+"Repeated CV, partition 44",Gemini 3.6 Flash,Partition 44,600,Steep,Mice,LLM Gemini 3.6 Flash,50,runs,50,50,complete
+"Repeated CV, partition 44",Gemini 3.6 Flash,Partition 44,600,Steep,Arrhythmia,LLM Gemini 3.6 Flash,50,runs,50,50,complete
+No counters,Gemini 3.6 Flash,No counters,600,Steep,Turkish,LLM Gemini 3.6 Flash,50,runs,50,50,complete
+No counters,Gemini 3.6 Flash,No counters,600,Steep,Arrhythmia,LLM Gemini 3.6 Flash,50,runs,50,50,complete
+"FE = 3,000, B = 30",Gemini 3.6 Flash,"FE = 3,000, B = 30",3000,Steep,Mice,LLM Gemini 3.6 Flash,50,runs,0,0,not completed
+"FE = 3,000, B = 30",Gemini 3.6 Flash,"FE = 3,000, B = 30",3000,Steep,Arrhythmia,LLM Gemini 3.6 Flash,50,runs,0,0,not completed
+"Turkish, K = 3, B = 12",Gemini 3.6 Flash,"K = 3, B = 12",600,Steep,Turkish,LLM Gemini 3.6 Flash,50,runs,0,0,not completed
+"Turkish, minimal prompt",Gemini 3.6 Flash,Minimal prompt (Campaign A),600,Steep,Turkish,LLM Gemini 3.6 Flash,50,runs,0,0,not completed
+"Turkish, no credit history",Gemini 3.6 Flash,"Informed, no credit history",600,Steep,Turkish,LLM Gemini 3.6 Flash,50,runs,0,0,not completed
+Full state shuffle,Qwen2.5-14B,Informed prompt (base),600,Steep,Turkish,Qwen2.5-14B full shuffle (incl. header),50,runs,50,50,complete
+Full state shuffle,Qwen2.5-14B,Informed prompt (base),600,Steep,Mice,Qwen2.5-14B full shuffle (incl. header),50,runs,50,50,complete
+Full state shuffle,Qwen2.5-14B,Informed prompt (base),600,Steep,Arrhythmia,Qwen2.5-14B full shuffle (incl. header),50,runs,50,50,complete
+Full state shuffle,Gemini 3.6 Flash,Informed prompt (base),600,Steep,Turkish,Gemini (full shuffle),50,runs,0,0,not completed
+Full state shuffle,Gemini 3.6 Flash,Informed prompt (base),600,Steep,Mice,Gemini (full shuffle),50,runs,0,0,not completed
+Full state shuffle,Gemini 3.6 Flash,Informed prompt (base),600,Steep,Arrhythmia,Gemini (full shuffle),50,runs,0,0,not completed
+Surrogate: distilled tree,Qwen2.5-14B,Informed prompt (base),600,Steep,Turkish,Per-dataset tree (Qwen2.5-14B),50,runs,50,50,complete
+Surrogate: distilled tree,Qwen2.5-14B,Informed prompt (base),600,Steep,Mice,Per-dataset tree (Qwen2.5-14B),50,runs,50,50,complete
+Surrogate: distilled tree,Qwen2.5-14B,Informed prompt (base),600,Steep,Arrhythmia,Per-dataset tree (Qwen2.5-14B),50,runs,50,50,complete
+Surrogate: distilled tree,Gemini 3.6 Flash,Informed prompt (base),600,Steep,Turkish,Per-dataset tree (Gemini),50,runs,50,50,complete
+Surrogate: distilled tree,Gemini 3.6 Flash,Informed prompt (base),600,Steep,Mice,Per-dataset tree (Gemini),50,runs,50,50,complete
+Surrogate: distilled tree,Gemini 3.6 Flash,Informed prompt (base),600,Steep,Arrhythmia,Per-dataset tree (Gemini),50,runs,50,50,complete
+Surrogate: cross-fitted distilled tree,Qwen2.5-14B,Informed prompt (base),600,Steep,Turkish,Cross-fitted tree (Qwen2.5-14B),50,runs,50,50,complete
+Surrogate: cross-fitted distilled tree,Qwen2.5-14B,Informed prompt (base),600,Steep,Mice,Cross-fitted tree (Qwen2.5-14B),50,runs,50,50,complete
+Surrogate: cross-fitted distilled tree,Qwen2.5-14B,Informed prompt (base),600,Steep,Arrhythmia,Cross-fitted tree (Qwen2.5-14B),50,runs,50,50,complete
+Surrogate: cross-fitted distilled tree,Gemini 3.6 Flash,Informed prompt (base),600,Steep,Turkish,Cross-fitted tree (Gemini),50,runs,50,50,complete
+Surrogate: cross-fitted distilled tree,Gemini 3.6 Flash,Informed prompt (base),600,Steep,Mice,Cross-fitted tree (Gemini),50,runs,50,50,complete
+Surrogate: cross-fitted distilled tree,Gemini 3.6 Flash,Informed prompt (base),600,Steep,Arrhythmia,Cross-fitted tree (Gemini),50,runs,50,50,complete
+Surrogate: cross-fitted marginal,Qwen2.5-14B,Informed prompt (base),600,Steep,Turkish,Cross-fitted marginal (Qwen2.5-14B),50,runs,50,50,complete
+Surrogate: cross-fitted marginal,Qwen2.5-14B,Informed prompt (base),600,Steep,Mice,Cross-fitted marginal (Qwen2.5-14B),50,runs,50,50,complete
+Surrogate: cross-fitted marginal,Qwen2.5-14B,Informed prompt (base),600,Steep,Arrhythmia,Cross-fitted marginal (Qwen2.5-14B),50,runs,50,50,complete
+Surrogate: cross-fitted marginal,Gemini 3.6 Flash,Informed prompt (base),600,Steep,Turkish,Cross-fitted marginal (Gemini),50,runs,50,50,complete
+Surrogate: cross-fitted marginal,Gemini 3.6 Flash,Informed prompt (base),600,Steep,Mice,Cross-fitted marginal (Gemini),50,runs,50,50,complete
+Surrogate: cross-fitted marginal,Gemini 3.6 Flash,Informed prompt (base),600,Steep,Arrhythmia,Cross-fitted marginal (Gemini),50,runs,50,50,complete
+V-shaped Turkish,Qwen2.5-14B,Informed prompt (base),600,V-shaped,Turkish,LLM Qwen2.5-14B,50,runs,50,50,complete
+inner 3×3 CV,Qwen2.5-14B,inner3x3,600,Steep,Mice,LLM Qwen2.5-14B,50,runs,50,50,complete
+inner 3×3 CV,Qwen2.5-14B,inner3x3,600,Steep,Arrhythmia,LLM Qwen2.5-14B,50,runs,50,50,complete

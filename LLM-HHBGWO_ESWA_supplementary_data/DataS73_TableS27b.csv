@@ -1,0 +1,4 @@
+Dataset,Decisions per run,Fallback (%),Repaired (%)
+Arrhythmia,268,97.3880597,100
+Mice,289,97.23183391,100
+Turkish,250,100,100

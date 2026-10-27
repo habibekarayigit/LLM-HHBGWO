@@ -1,0 +1,4 @@
+Dataset,Decisions per run,Distinct arms,H(arm) bits,Most frequent arms,MI(arm; index),p,MI(arm; stagnation),p,MI diversity (p),p
+Arrhythmia,272,1,0,COMPACT-3 100.0%,0,1.0,0,1.0,0,1.0
+Mice,284,1,0,COMPACT-3 100.0%,3.203426504e-16,1.0,0,1.0,0,1.0
+Turkish,250,1,0,COMPACT-3 100.0%,0,1.0,0,1.0,0,1.0

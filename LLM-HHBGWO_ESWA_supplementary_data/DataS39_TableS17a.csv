@@ -1,0 +1,34 @@
+Dataset,A,B,Units,Identical final masks
+Turkish,LLM Qwen2.5-7B,Const COMPACT-1,50,50
+Turkish,LLM Phi-4-mini,Const EXPLORE-2,50,48
+Turkish,LLM Qwen2.5-14B,Const EXPLORE-1,50,0
+Turkish,LLM Qwen2.5-14B,Mixture EXPLORE-2/COMPACT-2 67/33,50,0
+Turkish,LLM Qwen2.5-14B,Mixture EXPLORE-2/COMPACT-2 50/50,50,0
+Turkish,Rule-HH (calibrated),Const EXPLORE-2,50,0
+Turkish,Rule-HH,Const EXPLORE-2,50,50
+Turkish,Rule-HH (calibrated),Rule-HH,50,0
+Turkish,LLM Gemini 3.6 Flash,Const EXPLORE-2,50,0
+Turkish,LLM Llama-3.1-8B,BGWO (plain),50,50
+Turkish,LLM Llama-3.1-8B,Const COMPACT-2,50,0
+Mice,LLM Qwen2.5-7B,Const COMPACT-1,50,50
+Mice,LLM Phi-4-mini,Const EXPLORE-2,50,49
+Mice,LLM Qwen2.5-14B,Const EXPLORE-1,50,5
+Mice,LLM Qwen2.5-14B,Mixture EXPLORE-2/COMPACT-2 67/33,50,0
+Mice,LLM Qwen2.5-14B,Mixture EXPLORE-2/COMPACT-2 50/50,50,0
+Mice,Rule-HH (calibrated),Const EXPLORE-2,50,0
+Mice,Rule-HH,Const EXPLORE-2,50,34
+Mice,Rule-HH (calibrated),Rule-HH,50,0
+Mice,LLM Gemini 3.6 Flash,Const EXPLORE-2,50,0
+Mice,LLM Llama-3.1-8B,BGWO (plain),50,46
+Mice,LLM Llama-3.1-8B,Const COMPACT-2,50,0
+Arrhythmia,LLM Qwen2.5-7B,Const COMPACT-1,50,50
+Arrhythmia,LLM Phi-4-mini,Const EXPLORE-2,50,49
+Arrhythmia,LLM Qwen2.5-14B,Const EXPLORE-1,50,0
+Arrhythmia,LLM Qwen2.5-14B,Mixture EXPLORE-2/COMPACT-2 67/33,50,0
+Arrhythmia,LLM Qwen2.5-14B,Mixture EXPLORE-2/COMPACT-2 50/50,50,0
+Arrhythmia,Rule-HH (calibrated),Const EXPLORE-2,50,0
+Arrhythmia,Rule-HH,Const EXPLORE-2,50,43
+Arrhythmia,Rule-HH (calibrated),Rule-HH,50,0
+Arrhythmia,LLM Gemini 3.6 Flash,Const EXPLORE-2,50,0
+Arrhythmia,LLM Llama-3.1-8B,BGWO (plain),50,44
+Arrhythmia,LLM Llama-3.1-8B,Const COMPACT-2,50,0

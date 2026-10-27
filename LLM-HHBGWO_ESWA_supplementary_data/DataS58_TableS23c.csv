@@ -1,0 +1,4 @@
+Dataset,Highest prior mean credits
+Arrhythmia,COMPACT-2 0.413 (n 2293); KEEP-2 0.296 (n 259); EXPLORE-2 0.095 (n 2493)
+Mice,KEEP-2 0.286 (n 834); COMPACT-2 0.253 (n 1696); EXPLORE-2 0.066 (n 2725)
+Turkish,COMPACT-2 0.428 (n 2416); KEEP-2 0.300 (n 235); EXPLORE-2 0.050 (n 2435)

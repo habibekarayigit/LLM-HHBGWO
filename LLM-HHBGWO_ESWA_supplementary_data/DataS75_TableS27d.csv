@@ -1,0 +1,4 @@
+Dataset,DISTILLED runtime s,MARGINAL runtime s,Qwen-14B (shuffle) runtime s,LLM run / non-LLM run
+Turkish,29.9,29.9,40.8,1.36×
+Mice,12.5,12.7,24.6,1.95×
+Arrhythmia,5.9,6.1,18,3.00×

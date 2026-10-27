@@ -1,0 +1,343 @@
+Variant,FE_max,Transfer,Dataset,Method,n,Final best produced directly (%),Final best with an intervened ancestor (%),Decisions per run
+"FE = 3,000, B = 30",3000,Steep,Arrhythmia,BGWO (plain),50,0,0,30
+"FE = 3,000, B = 30",3000,Steep,Arrhythmia,Const COMPACT-2,50,0,100,30
+"FE = 3,000, B = 30",3000,Steep,Arrhythmia,FRRMAB-HH,50,0,86,30
+"FE = 3,000, B = 30",3000,Steep,Arrhythmia,LLM Qwen2.5-14B,50,0,100,30
+"FE = 3,000, B = 30",3000,Steep,Arrhythmia,Random-HH,50,0,98,30
+"FE = 3,000, B = 30",3000,Steep,Arrhythmia,UCB-HH,50,0,100,30
+"FE = 3,000, B = 30",3000,Steep,Mice,BGWO (plain),50,0,0,30
+"FE = 3,000, B = 30",3000,Steep,Mice,Const COMPACT-2,50,0,100,30
+"FE = 3,000, B = 30",3000,Steep,Mice,FRRMAB-HH,50,0,80,30
+"FE = 3,000, B = 30",3000,Steep,Mice,LLM Qwen2.5-14B,50,2,98,30
+"FE = 3,000, B = 30",3000,Steep,Mice,Random-HH,50,0,94,30
+"FE = 3,000, B = 30",3000,Steep,Mice,UCB-HH,50,0,90,30
+"High authority, ρ = 0.3",600,Steep,Arrhythmia,BGWO (plain),50,0,0,29
+"High authority, ρ = 0.3",600,Steep,Arrhythmia,Const COMPACT-1,50,6,100,29
+"High authority, ρ = 0.3",600,Steep,Arrhythmia,Const COMPACT-2,50,0,100,29
+"High authority, ρ = 0.3",600,Steep,Arrhythmia,Const EXPLORE-2,50,4,100,29
+"High authority, ρ = 0.3",600,Steep,Arrhythmia,FRRMAB-HH,50,2,76,29
+"High authority, ρ = 0.3",600,Steep,Arrhythmia,FRRMAB-HH (warm),50,0,100,29
+"High authority, ρ = 0.3",600,Steep,Arrhythmia,LLM Gemini 3.6 Flash,50,8,100,29
+"High authority, ρ = 0.3",600,Steep,Arrhythmia,LLM Qwen2.5-14B,50,10,100,29
+"High authority, ρ = 0.3",600,Steep,Arrhythmia,Pooled marginal (Qwen2.5-14B),50,6,100,29
+"High authority, ρ = 0.3",600,Steep,Arrhythmia,PM-HH,50,4,100,29
+"High authority, ρ = 0.3",600,Steep,Arrhythmia,Random-HH,50,4,100,29
+"High authority, ρ = 0.3",600,Steep,Arrhythmia,UCB-HH,50,4,100,29
+"High authority, ρ = 0.3",600,Steep,Arrhythmia,UCB-HH (warm),50,2,100,29
+"High authority, ρ = 0.3",600,Steep,Turkish,BGWO (plain),50,0,0,29
+"High authority, ρ = 0.3",600,Steep,Turkish,Const COMPACT-1,50,0,100,29
+"High authority, ρ = 0.3",600,Steep,Turkish,Const COMPACT-2,50,0,100,29
+"High authority, ρ = 0.3",600,Steep,Turkish,Const EXPLORE-2,50,10,100,29
+"High authority, ρ = 0.3",600,Steep,Turkish,FRRMAB-HH,50,6,70,29
+"High authority, ρ = 0.3",600,Steep,Turkish,FRRMAB-HH (warm),50,0,100,29
+"High authority, ρ = 0.3",600,Steep,Turkish,LLM Gemini 3.6 Flash,50,0,100,29
+"High authority, ρ = 0.3",600,Steep,Turkish,LLM Qwen2.5-14B,50,8,100,29
+"High authority, ρ = 0.3",600,Steep,Turkish,Pooled marginal (Qwen2.5-14B),50,10,100,29
+"High authority, ρ = 0.3",600,Steep,Turkish,PM-HH,50,4,100,29
+"High authority, ρ = 0.3",600,Steep,Turkish,Random-HH,50,2,100,29
+"High authority, ρ = 0.3",600,Steep,Turkish,UCB-HH,50,2,100,29
+"High authority, ρ = 0.3",600,Steep,Turkish,UCB-HH (warm),50,4,100,29
+"High authority, ρ = 0.5",600,Steep,Arrhythmia,BGWO (plain),50,0,0,29
+"High authority, ρ = 0.5",600,Steep,Arrhythmia,Const COMPACT-1,50,4,100,29
+"High authority, ρ = 0.5",600,Steep,Arrhythmia,Const COMPACT-2,50,2,100,29
+"High authority, ρ = 0.5",600,Steep,Arrhythmia,Const EXPLORE-2,50,8,100,29
+"High authority, ρ = 0.5",600,Steep,Arrhythmia,FRRMAB-HH,50,0,82,29
+"High authority, ρ = 0.5",600,Steep,Arrhythmia,FRRMAB-HH (warm),50,2,100,29
+"High authority, ρ = 0.5",600,Steep,Arrhythmia,LLM Qwen2.5-14B,50,16,100,29
+"High authority, ρ = 0.5",600,Steep,Arrhythmia,Pooled marginal (Qwen2.5-14B),50,16,100,29
+"High authority, ρ = 0.5",600,Steep,Arrhythmia,PM-HH,50,4,100,29
+"High authority, ρ = 0.5",600,Steep,Arrhythmia,Random-HH,50,10,100,29
+"High authority, ρ = 0.5",600,Steep,Arrhythmia,UCB-HH,50,6,100,29
+"High authority, ρ = 0.5",600,Steep,Arrhythmia,UCB-HH (warm),50,6,100,29
+"High authority, ρ = 0.5",600,Steep,Turkish,BGWO (plain),50,0,0,29
+"High authority, ρ = 0.5",600,Steep,Turkish,Const COMPACT-1,50,0,100,29
+"High authority, ρ = 0.5",600,Steep,Turkish,Const COMPACT-2,50,0,100,29
+"High authority, ρ = 0.5",600,Steep,Turkish,Const EXPLORE-2,50,8,100,29
+"High authority, ρ = 0.5",600,Steep,Turkish,FRRMAB-HH,50,4,74,29
+"High authority, ρ = 0.5",600,Steep,Turkish,FRRMAB-HH (warm),50,0,100,29
+"High authority, ρ = 0.5",600,Steep,Turkish,LLM Qwen2.5-14B,50,22,100,29
+"High authority, ρ = 0.5",600,Steep,Turkish,Pooled marginal (Qwen2.5-14B),50,20,100,29
+"High authority, ρ = 0.5",600,Steep,Turkish,PM-HH,50,2,100,29
+"High authority, ρ = 0.5",600,Steep,Turkish,Random-HH,50,14,100,29
+"High authority, ρ = 0.5",600,Steep,Turkish,UCB-HH,50,2,100,29
+"High authority, ρ = 0.5",600,Steep,Turkish,UCB-HH (warm),50,2,100,29
+"K = 3, B = 12",600,Steep,Arrhythmia,BGWO (plain),50,0,0,9
+"K = 3, B = 12",600,Steep,Arrhythmia,FRRMAB-HH,50,0,84,9
+"K = 3, B = 12",600,Steep,Arrhythmia,LLM Qwen2.5-14B,50,2,98,9
+"K = 3, B = 12",600,Steep,Arrhythmia,Q-learning-HH,50,0,98,9
+"K = 3, B = 12",600,Steep,Arrhythmia,Random-HH,50,0,98,9
+"K = 3, B = 12",600,Steep,Arrhythmia,Rule-HH,50,0,100,9
+"K = 3, B = 12",600,Steep,Arrhythmia,UCB-HH,50,2,98,9
+"K = 3, B = 12",600,Steep,Turkish,BGWO (plain),50,0,0,9
+"K = 3, B = 12",600,Steep,Turkish,FRRMAB-HH,50,0,86,9
+"K = 3, B = 12",600,Steep,Turkish,LLM Qwen2.5-14B,50,0,100,9
+"K = 3, B = 12",600,Steep,Turkish,Q-learning-HH,50,0,96,9
+"K = 3, B = 12",600,Steep,Turkish,Random-HH,50,0,98,9
+"K = 3, B = 12",600,Steep,Turkish,Rule-HH,50,0,100,9
+"K = 3, B = 12",600,Steep,Turkish,UCB-HH,50,0,100,9
+"K = 3, B = 6",600,Steep,Arrhythmia,BGWO (plain),50,0,0,6
+"K = 3, B = 6",600,Steep,Arrhythmia,FRRMAB-HH,50,0,84,6
+"K = 3, B = 6",600,Steep,Arrhythmia,LLM Qwen2.5-14B,50,0,98,6
+"K = 3, B = 6",600,Steep,Arrhythmia,Q-learning-HH,50,0,98,6
+"K = 3, B = 6",600,Steep,Arrhythmia,Random-HH,50,0,98,6
+"K = 3, B = 6",600,Steep,Arrhythmia,Rule-HH,50,0,100,6
+"K = 3, B = 6",600,Steep,Arrhythmia,UCB-HH,50,0,98,6
+"K = 5, B = 12",600,Steep,Arrhythmia,BGWO (plain),50,0,0,5.38
+"K = 5, B = 12",600,Steep,Arrhythmia,FRRMAB-HH,50,0,80,5.56
+"K = 5, B = 12",600,Steep,Arrhythmia,LLM Qwen2.5-14B,50,0,96,5.32
+"K = 5, B = 12",600,Steep,Arrhythmia,Q-learning-HH,50,0,86,5.38
+"K = 5, B = 12",600,Steep,Arrhythmia,Random-HH,50,0,94,5.32
+"K = 5, B = 12",600,Steep,Arrhythmia,Rule-HH,50,2,100,5.4
+"K = 5, B = 12",600,Steep,Arrhythmia,UCB-HH,50,0,90,5.42
+wJ = 0.99,600,Steep,Arrhythmia,BGWO (plain),50,0,0,5.2
+wJ = 0.99,600,Steep,Arrhythmia,Const COMPACT-2,50,2,100,5.3
+wJ = 0.99,600,Steep,Arrhythmia,FRRMAB-HH,50,0,80,5.36
+wJ = 0.99,600,Steep,Arrhythmia,LLM Gemini 3.6 Flash,50,0,98,5.28
+wJ = 0.99,600,Steep,Arrhythmia,LLM Qwen2.5-14B,50,0,94,5.48
+wJ = 0.99,600,Steep,Arrhythmia,Random-HH,50,0,88,5.44
+wJ = 0.99,600,Steep,Arrhythmia,UCB-HH,50,0,88,5.42
+wJ = 0.99,600,Steep,Turkish,BGWO (plain),50,0,0,5
+wJ = 0.99,600,Steep,Turkish,Const COMPACT-2,50,0,100,5.04
+wJ = 0.99,600,Steep,Turkish,FRRMAB-HH,50,0,82,5
+wJ = 0.99,600,Steep,Turkish,LLM Gemini 3.6 Flash,50,0,80,5.04
+wJ = 0.99,600,Steep,Turkish,LLM Qwen2.5-14B,50,0,94,5.02
+wJ = 0.99,600,Steep,Turkish,Random-HH,50,0,86,5
+wJ = 0.99,600,Steep,Turkish,UCB-HH,50,0,94,5
+wJ = 1,600,Steep,Arrhythmia,BGWO (plain),50,0,0,5.48
+wJ = 1,600,Steep,Arrhythmia,Const COMPACT-2,50,2,100,5.6
+wJ = 1,600,Steep,Arrhythmia,FRRMAB-HH,50,0,78,5.58
+wJ = 1,600,Steep,Arrhythmia,Random-HH,50,0,92,5.54
+wJ = 1,600,Steep,Arrhythmia,UCB-HH,50,2,82,5.4
+wJ = 1,600,Steep,Turkish,BGWO (plain),50,0,0,5
+wJ = 1,600,Steep,Turkish,Const COMPACT-2,50,0,98,5.02
+wJ = 1,600,Steep,Turkish,FRRMAB-HH,50,0,80,5
+wJ = 1,600,Steep,Turkish,Random-HH,50,0,74,5
+wJ = 1,600,Steep,Turkish,UCB-HH,50,0,84,5
+Informed prompt (base),600,bGWO1,Arrhythmia,BGWO (plain),50,0,0,5.92
+Informed prompt (base),600,bGWO1,Arrhythmia,Const COMPACT-2,50,0,100,5.72
+Informed prompt (base),600,bGWO1,Arrhythmia,FRRMAB-HH,50,0,80,5.74
+Informed prompt (base),600,bGWO1,Arrhythmia,LLM Gemini 3.6 Flash,37,8.108108108,100,5.756756757
+Informed prompt (base),600,bGWO1,Arrhythmia,LLM Qwen2.5-14B,50,0,90,5.76
+Informed prompt (base),600,bGWO1,Arrhythmia,Random-HH,50,6,82,5.78
+Informed prompt (base),600,bGWO1,Mice,BGWO (plain),50,0,0,5.98
+Informed prompt (base),600,bGWO1,Mice,Const COMPACT-2,50,2,100,5.84
+Informed prompt (base),600,bGWO1,Mice,FRRMAB-HH,50,6,76,5.92
+Informed prompt (base),600,bGWO1,Mice,Random-HH,50,6,74,6
+Informed prompt (base),600,bGWO1,Turkish,BGWO (plain),50,0,0,5.22
+Informed prompt (base),600,bGWO1,Turkish,Const COMPACT-2,50,0,100,5.02
+Informed prompt (base),600,bGWO1,Turkish,FRRMAB-HH,50,0,76,5.12
+Informed prompt (base),600,bGWO1,Turkish,Random-HH,50,0,90,5.14
+Informed prompt (base),600,Legacy,Arrhythmia,BGWO (plain),50,0,0,6
+Informed prompt (base),600,Legacy,Arrhythmia,Const EXPLORE-2,50,10,28,6
+Informed prompt (base),600,Legacy,Arrhythmia,FRRMAB-HH,50,36,52,6
+Informed prompt (base),600,Legacy,Arrhythmia,LLM Qwen2.5-14B,50,56,86,6
+Informed prompt (base),600,Legacy,Arrhythmia,Random-HH,50,62,80,6
+Informed prompt (base),600,Legacy,Arrhythmia,UCB-HH,50,86,90,6
+Informed prompt (base),600,Legacy,Mice,BGWO (plain),50,0,0,6
+Informed prompt (base),600,Legacy,Mice,Const EXPLORE-2,50,6,48,5.98
+Informed prompt (base),600,Legacy,Mice,FRRMAB-HH,50,32,56,6
+Informed prompt (base),600,Legacy,Mice,LLM Qwen2.5-14B,50,56,96,6
+Informed prompt (base),600,Legacy,Mice,Random-HH,50,66,88,6
+Informed prompt (base),600,Legacy,Mice,UCB-HH,50,76,92,6
+Informed prompt (base),600,Legacy,Turkish,BGWO (plain),50,0,0,6
+Informed prompt (base),600,Legacy,Turkish,Const EXPLORE-2,50,4,44,6
+Informed prompt (base),600,Legacy,Turkish,FRRMAB-HH,50,28,60,6
+Informed prompt (base),600,Legacy,Turkish,LLM Qwen2.5-14B,50,76,92,6
+Informed prompt (base),600,Legacy,Turkish,Random-HH,50,66,80,6
+Informed prompt (base),600,Legacy,Turkish,UCB-HH,50,82,90,6
+Informed prompt (base),600,Steep,Arrhythmia,AP-HH,50,2,82,5.38
+Informed prompt (base),600,Steep,Arrhythmia,BGWO (plain),50,0,0,5.36
+Informed prompt (base),600,Steep,Arrhythmia,Const COMPACT-1,50,4,100,5.28
+Informed prompt (base),600,Steep,Arrhythmia,Const COMPACT-2,50,2,100,5.42
+Informed prompt (base),600,Steep,Arrhythmia,Const EXPLORE-1,50,0,98,5.34
+Informed prompt (base),600,Steep,Arrhythmia,Const EXPLORE-2,50,2,100,5.34
+Informed prompt (base),600,Steep,Arrhythmia,Const EXPLORE-3,50,0,98,5.26
+Informed prompt (base),600,Steep,Arrhythmia,Const MUTATE-2,50,0,96,5.42
+Informed prompt (base),600,Steep,Arrhythmia,Const OPPOSITION-2,50,0,8,5.34
+Informed prompt (base),600,Steep,Arrhythmia,Const RESTART-2,50,0,80,5.3
+Informed prompt (base),600,Steep,Arrhythmia,Pooled tree (Qwen2.5-14B),50,0,100,5.38
+Informed prompt (base),600,Steep,Arrhythmia,Cross-fitted tree (Qwen2.5-14B),50,0,100,5.2
+Informed prompt (base),600,Steep,Arrhythmia,Cross-fitted tree (Gemini),50,6,98,5.22
+Informed prompt (base),600,Steep,Arrhythmia,Per-dataset tree (Qwen2.5-14B),50,0,100,5.32
+Informed prompt (base),600,Steep,Arrhythmia,Per-dataset tree (Gemini),50,4,96,5.28
+Informed prompt (base),600,Steep,Arrhythmia,Fixed-HH,50,0,98,5.16
+Informed prompt (base),600,Steep,Arrhythmia,FRRMAB-HH,50,0,80,5.52
+Informed prompt (base),600,Steep,Arrhythmia,FRRMAB-HH (warm),50,2,100,5.42
+Informed prompt (base),600,Steep,Arrhythmia,LLM Gemini 3.6 Flash,50,2,90,5.36
+Informed prompt (base),600,Steep,Arrhythmia,LLM Llama-3.1-8B,50,0,0,5.36
+Informed prompt (base),600,Steep,Arrhythmia,Llama-3.1-8B (constrained),50,0,100,5.44
+Informed prompt (base),600,Steep,Arrhythmia,LLM Phi-4-mini,50,2,98,5.34
+Informed prompt (base),600,Steep,Arrhythmia,LLM Qwen2.5-14B,50,0,100,5.36
+Informed prompt (base),600,Steep,Arrhythmia,Qwen2.5-14B state-shuffle,50,2,98,5.26
+Informed prompt (base),600,Steep,Arrhythmia,Qwen2.5-14B full shuffle (incl. header),50,2,100,5.3
+Informed prompt (base),600,Steep,Arrhythmia,LLM Qwen2.5-7B,50,4,100,5.28
+Informed prompt (base),600,Steep,Arrhythmia,Pooled marginal (Qwen2.5-14B),50,0,100,5.3
+Informed prompt (base),600,Steep,Arrhythmia,Cross-fitted marginal (Qwen2.5-14B),50,0,100,5.36
+Informed prompt (base),600,Steep,Arrhythmia,Cross-fitted marginal (Gemini),50,0,98,5.26
+Informed prompt (base),600,Steep,Arrhythmia,Mixture EXPLORE-2/COMPACT-2 50/50,50,2,100,5.3
+Informed prompt (base),600,Steep,Arrhythmia,Mixture EXPLORE-2/COMPACT-2 67/33,50,4,100,5.32
+Informed prompt (base),600,Steep,Arrhythmia,PM-HH,50,0,82,5.24
+Informed prompt (base),600,Steep,Arrhythmia,Q-learning-HH,50,0,86,5.38
+Informed prompt (base),600,Steep,Arrhythmia,Random-HH,50,0,94,5.32
+Informed prompt (base),600,Steep,Arrhythmia,Rule-HH,50,2,100,5.34
+Informed prompt (base),600,Steep,Arrhythmia,Rule-HH (calibrated),50,0,100,5.34
+Informed prompt (base),600,Steep,Arrhythmia,UCB-HH,50,0,90,5.32
+Informed prompt (base),600,Steep,Arrhythmia,UCB-HH (warm),50,2,100,5.42
+Informed prompt (base),600,Steep,Mice,AP-HH,50,0,74,5.76
+Informed prompt (base),600,Steep,Mice,BGWO (plain),50,0,0,5.78
+Informed prompt (base),600,Steep,Mice,Const COMPACT-1,50,2,100,5.78
+Informed prompt (base),600,Steep,Mice,Const COMPACT-2,50,4,100,5.74
+Informed prompt (base),600,Steep,Mice,Const EXPLORE-1,50,2,86,5.76
+Informed prompt (base),600,Steep,Mice,Const EXPLORE-2,50,4,100,5.66
+Informed prompt (base),600,Steep,Mice,Const EXPLORE-3,50,0,98,5.68
+Informed prompt (base),600,Steep,Mice,Const MUTATE-2,50,0,88,5.74
+Informed prompt (base),600,Steep,Mice,Const OPPOSITION-2,50,0,0,5.62
+Informed prompt (base),600,Steep,Mice,Const RESTART-2,50,0,70,5.7
+Informed prompt (base),600,Steep,Mice,Pooled tree (Qwen2.5-14B),50,0,100,5.68
+Informed prompt (base),600,Steep,Mice,Cross-fitted tree (Qwen2.5-14B),50,0,94,5.82
+Informed prompt (base),600,Steep,Mice,Cross-fitted tree (Gemini),50,4,76,5.86
+Informed prompt (base),600,Steep,Mice,Per-dataset tree (Qwen2.5-14B),50,0,94,5.78
+Informed prompt (base),600,Steep,Mice,Per-dataset tree (Gemini),50,2,90,5.82
+Informed prompt (base),600,Steep,Mice,Fixed-HH,50,0,90,5.7
+Informed prompt (base),600,Steep,Mice,FRRMAB-HH,50,0,78,5.7
+Informed prompt (base),600,Steep,Mice,FRRMAB-HH (warm),50,0,0,5.78
+Informed prompt (base),600,Steep,Mice,LLM Gemini 3.6 Flash,50,4,88,5.9
+Informed prompt (base),600,Steep,Mice,LLM Llama-3.1-8B,50,0,0,5.78
+Informed prompt (base),600,Steep,Mice,Llama-3.1-8B (constrained),50,0,100,5.68
+Informed prompt (base),600,Steep,Mice,LLM Phi-4-mini,50,4,98,5.68
+Informed prompt (base),600,Steep,Mice,LLM Qwen2.5-14B,50,2,92,5.78
+Informed prompt (base),600,Steep,Mice,Qwen2.5-14B state-shuffle,50,0,96,5.7
+Informed prompt (base),600,Steep,Mice,Qwen2.5-14B full shuffle (incl. header),50,2,98,5.66
+Informed prompt (base),600,Steep,Mice,LLM Qwen2.5-7B,50,2,100,5.78
+Informed prompt (base),600,Steep,Mice,Pooled marginal (Qwen2.5-14B),50,2,98,5.82
+Informed prompt (base),600,Steep,Mice,Cross-fitted marginal (Qwen2.5-14B),50,0,98,5.74
+Informed prompt (base),600,Steep,Mice,Cross-fitted marginal (Gemini),50,2,92,5.82
+Informed prompt (base),600,Steep,Mice,Mixture EXPLORE-2/COMPACT-2 50/50,50,0,100,5.7
+Informed prompt (base),600,Steep,Mice,Mixture EXPLORE-2/COMPACT-2 67/33,50,0,100,5.7
+Informed prompt (base),600,Steep,Mice,PM-HH,50,0,72,5.74
+Informed prompt (base),600,Steep,Mice,Q-learning-HH,50,0,88,5.8
+Informed prompt (base),600,Steep,Mice,Random-HH,50,0,74,5.8
+Informed prompt (base),600,Steep,Mice,Rule-HH,50,2,98,5.62
+Informed prompt (base),600,Steep,Mice,Rule-HH (calibrated),50,0,90,5.72
+Informed prompt (base),600,Steep,Mice,UCB-HH,50,0,80,5.68
+Informed prompt (base),600,Steep,Mice,UCB-HH (warm),50,0,6,5.76
+Informed prompt (base),600,Steep,Turkish,AP-HH,50,0,86,5
+Informed prompt (base),600,Steep,Turkish,BGWO (plain),50,0,0,5
+Informed prompt (base),600,Steep,Turkish,Const COMPACT-1,50,0,100,5
+Informed prompt (base),600,Steep,Turkish,Const COMPACT-2,50,0,100,5
+Informed prompt (base),600,Steep,Turkish,Const EXPLORE-1,50,0,100,5
+Informed prompt (base),600,Steep,Turkish,Const EXPLORE-2,50,0,98,5.02
+Informed prompt (base),600,Steep,Turkish,Const EXPLORE-3,50,0,80,5
+Informed prompt (base),600,Steep,Turkish,Const MUTATE-2,50,0,96,5
+Informed prompt (base),600,Steep,Turkish,Const OPPOSITION-2,50,0,2,5
+Informed prompt (base),600,Steep,Turkish,Const RESTART-2,50,0,86,5
+Informed prompt (base),600,Steep,Turkish,Pooled tree (Qwen2.5-14B),50,0,98,5
+Informed prompt (base),600,Steep,Turkish,Cross-fitted tree (Qwen2.5-14B),50,0,98,5
+Informed prompt (base),600,Steep,Turkish,Cross-fitted tree (Gemini),50,0,100,5
+Informed prompt (base),600,Steep,Turkish,Per-dataset tree (Qwen2.5-14B),50,0,98,5
+Informed prompt (base),600,Steep,Turkish,Per-dataset tree (Gemini),50,0,100,5
+Informed prompt (base),600,Steep,Turkish,Fixed-HH,50,0,100,5
+Informed prompt (base),600,Steep,Turkish,FRRMAB-HH,50,0,84,5
+Informed prompt (base),600,Steep,Turkish,FRRMAB-HH (warm),50,0,100,5
+Informed prompt (base),600,Steep,Turkish,LLM Gemini 3.6 Flash,50,0,100,5
+Informed prompt (base),600,Steep,Turkish,LLM Llama-3.1-8B,50,0,0,5
+Informed prompt (base),600,Steep,Turkish,Llama-3.1-8B (constrained),50,0,100,5
+Informed prompt (base),600,Steep,Turkish,LLM Phi-4-mini,50,0,94,5.02
+Informed prompt (base),600,Steep,Turkish,Qwen-14B (8-bit),50,0,100,5
+Informed prompt (base),600,Steep,Turkish,LLM Qwen2.5-14B,50,0,96,5
+Informed prompt (base),600,Steep,Turkish,Qwen2.5-14B state-shuffle,50,0,100,5.02
+Informed prompt (base),600,Steep,Turkish,Qwen2.5-14B full shuffle (incl. header),50,0,100,5
+Informed prompt (base),600,Steep,Turkish,LLM Qwen2.5-7B,50,0,100,5
+Informed prompt (base),600,Steep,Turkish,Pooled marginal (Qwen2.5-14B),50,0,98,5
+Informed prompt (base),600,Steep,Turkish,Cross-fitted marginal (Qwen2.5-14B),50,0,98,5.02
+Informed prompt (base),600,Steep,Turkish,Cross-fitted marginal (Gemini),50,0,100,5
+Informed prompt (base),600,Steep,Turkish,Mixture EXPLORE-2/COMPACT-2 50/50,50,0,100,5
+Informed prompt (base),600,Steep,Turkish,Mixture EXPLORE-2/COMPACT-2 67/33,50,0,100,5
+Informed prompt (base),600,Steep,Turkish,PM-HH,50,0,84,5
+Informed prompt (base),600,Steep,Turkish,Q-learning-HH,50,0,90,5.02
+Informed prompt (base),600,Steep,Turkish,Random-HH,50,0,92,5
+Informed prompt (base),600,Steep,Turkish,Rule-HH,50,0,98,5.02
+Informed prompt (base),600,Steep,Turkish,Rule-HH (calibrated),50,0,100,5
+Informed prompt (base),600,Steep,Turkish,UCB-HH,50,0,98,5
+Informed prompt (base),600,Steep,Turkish,UCB-HH (warm),50,0,100,5
+Informed prompt (base),600,V-shaped,Arrhythmia,BGWO (plain),50,0,0,5.34
+Informed prompt (base),600,V-shaped,Arrhythmia,Const COMPACT-2,50,0,100,5.34
+Informed prompt (base),600,V-shaped,Arrhythmia,FRRMAB-HH,50,0,84,5.42
+Informed prompt (base),600,V-shaped,Arrhythmia,LLM Gemini 3.6 Flash,36,0,91.66666667,5.138888889
+Informed prompt (base),600,V-shaped,Arrhythmia,LLM Qwen2.5-14B,50,0,98,5.42
+Informed prompt (base),600,V-shaped,Arrhythmia,Random-HH,50,2,96,5.32
+Informed prompt (base),600,V-shaped,Mice,BGWO (plain),50,0,0,5.62
+Informed prompt (base),600,V-shaped,Mice,Const COMPACT-2,50,4,100,5.74
+Informed prompt (base),600,V-shaped,Mice,FRRMAB-HH,50,2,80,5.58
+Informed prompt (base),600,V-shaped,Mice,Random-HH,50,0,86,5.5
+Informed prompt (base),600,V-shaped,Turkish,BGWO (plain),50,0,0,5.16
+Informed prompt (base),600,V-shaped,Turkish,Const COMPACT-2,50,0,100,5.14
+Informed prompt (base),600,V-shaped,Turkish,FRRMAB-HH,50,0,88,5.18
+Informed prompt (base),600,V-shaped,Turkish,LLM Qwen2.5-14B,50,0,98,5.16
+Informed prompt (base),600,V-shaped,Turkish,Random-HH,50,0,98,5.08
+Informed prompt (base),3000,Steep,Arrhythmia,BGWO (plain),50,0,0,6
+Informed prompt (base),3000,Steep,Arrhythmia,Const COMPACT-2,50,0,100,6
+Informed prompt (base),3000,Steep,Arrhythmia,FRRMAB-HH,50,0,86,6
+Informed prompt (base),3000,Steep,Arrhythmia,LLM Qwen2.5-14B,50,0,100,6
+Informed prompt (base),3000,Steep,Arrhythmia,Random-HH,50,0,100,6
+Informed prompt (base),3000,Steep,Mice,BGWO (plain),50,0,0,6
+Informed prompt (base),3000,Steep,Mice,Const COMPACT-2,50,0,100,6
+Informed prompt (base),3000,Steep,Mice,FRRMAB-HH,50,0,80,6
+Informed prompt (base),3000,Steep,Mice,LLM Qwen2.5-14B,50,0,98,6
+Informed prompt (base),3000,Steep,Mice,Random-HH,50,0,90,6
+Informed + MUTATE-2 example,600,Steep,Arrhythmia,LLM Qwen2.5-14B,50,0,100,5.26
+"Informed, no credit history",600,Steep,Arrhythmia,LLM Qwen2.5-14B,50,0,84,5.32
+"Informed, no credit history",600,Steep,Turkish,LLM Qwen2.5-14B,50,0,94,5
+Informed + rotating example,600,Steep,Arrhythmia,LLM Qwen2.5-14B,50,0,100,5.26
+inner3x3,600,Steep,Arrhythmia,BGWO (plain),50,0,0,5.2
+inner3x3,600,Steep,Arrhythmia,Const COMPACT-2,50,0,100,5.36
+inner3x3,600,Steep,Arrhythmia,LLM Qwen2.5-14B,50,0,100,5.28
+inner3x3,600,Steep,Arrhythmia,Random-HH,50,0,90,5.26
+inner3x3,600,Steep,Arrhythmia,UCB-HH,50,0,82,5.14
+inner3x3,600,Steep,Mice,BGWO (plain),50,0,0,5.64
+inner3x3,600,Steep,Mice,Const COMPACT-2,50,0,100,5.64
+inner3x3,600,Steep,Mice,LLM Qwen2.5-14B,50,0,92,5.62
+inner3x3,600,Steep,Mice,Random-HH,50,0,78,5.7
+inner3x3,600,Steep,Mice,UCB-HH,50,0,84,5.7
+No counters,600,Steep,Arrhythmia,LLM Gemini 3.6 Flash,50,2,88,5.24
+No counters,600,Steep,Arrhythmia,LLM Qwen2.5-14B,50,0,96,5.26
+No counters,600,Steep,Turkish,LLM Gemini 3.6 Flash,50,0,100,5
+No counters,600,Steep,Turkish,LLM Qwen2.5-14B,50,0,100,5
+Minimal prompt (Campaign A),600,Steep,Arrhythmia,LLM Qwen2.5-14B,50,0,98,5.22
+Minimal prompt (Campaign A),600,Steep,Turkish,LLM Qwen2.5-14B,50,0,100,5
+Partition 43,600,Steep,Arrhythmia,BGWO (plain),50,0,0,5.2
+Partition 43,600,Steep,Arrhythmia,Const COMPACT-1,50,0,100,5.38
+Partition 43,600,Steep,Arrhythmia,Const COMPACT-2,50,2,100,5.36
+Partition 43,600,Steep,Arrhythmia,Const EXPLORE-2,50,0,100,5.24
+Partition 43,600,Steep,Arrhythmia,FRRMAB-HH,50,2,82,5.32
+Partition 43,600,Steep,Arrhythmia,LLM Gemini 3.6 Flash,50,0,94,5.36
+Partition 43,600,Steep,Arrhythmia,LLM Qwen2.5-14B,50,0,100,5.32
+Partition 43,600,Steep,Arrhythmia,Random-HH,50,0,86,5.24
+Partition 43,600,Steep,Arrhythmia,UCB-HH,50,0,88,5.28
+Partition 43,600,Steep,Mice,BGWO (plain),50,0,0,5.78
+Partition 43,600,Steep,Mice,Const COMPACT-1,50,2,100,5.8
+Partition 43,600,Steep,Mice,Const COMPACT-2,50,0,100,5.7
+Partition 43,600,Steep,Mice,Const EXPLORE-2,50,0,98,5.74
+Partition 43,600,Steep,Mice,FRRMAB-HH,50,0,74,5.78
+Partition 43,600,Steep,Mice,LLM Gemini 3.6 Flash,50,0,78,5.74
+Partition 43,600,Steep,Mice,LLM Qwen2.5-14B,50,0,96,5.6
+Partition 43,600,Steep,Mice,Random-HH,50,0,80,5.66
+Partition 43,600,Steep,Mice,UCB-HH,50,0,86,5.7
+Partition 44,600,Steep,Arrhythmia,BGWO (plain),50,0,0,5.28
+Partition 44,600,Steep,Arrhythmia,Const COMPACT-1,50,6,100,5.36
+Partition 44,600,Steep,Arrhythmia,Const COMPACT-2,50,0,100,5.28
+Partition 44,600,Steep,Arrhythmia,Const EXPLORE-2,50,0,100,5.28
+Partition 44,600,Steep,Arrhythmia,FRRMAB-HH,50,0,80,5.2
+Partition 44,600,Steep,Arrhythmia,LLM Gemini 3.6 Flash,50,0,90,5.36
+Partition 44,600,Steep,Arrhythmia,LLM Qwen2.5-14B,50,2,94,5.24
+Partition 44,600,Steep,Arrhythmia,Random-HH,50,0,88,5.2
+Partition 44,600,Steep,Arrhythmia,UCB-HH,50,0,82,5.26
+Partition 44,600,Steep,Mice,BGWO (plain),50,0,0,5.82
+Partition 44,600,Steep,Mice,Const COMPACT-1,50,6,100,5.78
+Partition 44,600,Steep,Mice,Const COMPACT-2,50,0,100,5.76
+Partition 44,600,Steep,Mice,Const EXPLORE-2,50,0,98,5.54
+Partition 44,600,Steep,Mice,FRRMAB-HH,50,0,72,5.82
+Partition 44,600,Steep,Mice,LLM Gemini 3.6 Flash,50,4,76,5.72
+Partition 44,600,Steep,Mice,LLM Qwen2.5-14B,50,4,100,5.78
+Partition 44,600,Steep,Mice,Random-HH,50,0,74,5.82
+Partition 44,600,Steep,Mice,UCB-HH,50,0,76,5.72

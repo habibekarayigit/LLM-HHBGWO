@@ -1,0 +1,2 @@
+n,Action agreement,Arm agreement,Cohen κ (action),Cohen κ (arm),Reason agreement,"Valid, NF4","Valid, int8",NF4 replay agreement,Latency NF4 (s),Latency int8 (s),Distinct arms NF4,Distinct arms int8,Model A,Model B
+100,0.9,0.72,0.7594997595,0.6060222316,0.86,1,1,1,1.953493865,34.34440392,8,7,NF4,8-bit

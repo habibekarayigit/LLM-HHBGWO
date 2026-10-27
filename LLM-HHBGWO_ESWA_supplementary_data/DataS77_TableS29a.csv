@@ -1,0 +1,42 @@
+Experiment,Backbone,Datasets,Planned,Completed,Clean,Status
+"Core cell (steep, FE 600)",Gemini 3.6 Flash,"Turkish, Mice, Arrhythmia",150,150,150,complete
+"Core cell (steep, FE 600)",Llama-8B,"Turkish, Mice, Arrhythmia",150,150,150,complete
+"Core cell (steep, FE 600)",Phi-4-mini,"Turkish, Mice, Arrhythmia",150,150,150,complete
+"Core cell (steep, FE 600)",Qwen2.5-14B,"Turkish, Mice, Arrhythmia",150,150,150,complete
+"Core cell (steep, FE 600)",Qwen-7B,"Turkish, Mice, Arrhythmia",150,150,150,complete
+"High authority, ρ = 0.3",Gemini 3.6 Flash,"Turkish, Arrhythmia",100,100,100,complete
+"High authority, ρ = 0.3",Qwen2.5-14B,"Turkish, Arrhythmia",100,100,100,complete
+"High authority, ρ = 0.5",Gemini 3.6 Flash,"Turkish, Arrhythmia",100,0,0,not completed
+"High authority, ρ = 0.5",Qwen2.5-14B,"Turkish, Arrhythmia",100,100,100,complete
+"Repeated CV, partition 43",Gemini 3.6 Flash,"Mice, Arrhythmia",100,100,100,complete
+"Repeated CV, partition 43",Qwen2.5-14B,"Mice, Arrhythmia",100,100,100,complete
+"Repeated CV, partition 44",Gemini 3.6 Flash,"Mice, Arrhythmia",100,100,100,complete
+"Repeated CV, partition 44",Qwen2.5-14B,"Mice, Arrhythmia",100,100,100,complete
+No counters,Gemini 3.6 Flash,"Turkish, Arrhythmia",100,100,100,complete
+No counters,Qwen2.5-14B,"Turkish, Arrhythmia",100,100,100,complete
+Surrogate: cross-fitted distilled tree,Gemini 3.6 Flash,"Turkish, Mice, Arrhythmia",150,150,150,complete
+Surrogate: cross-fitted distilled tree,Qwen2.5-14B,"Turkish, Mice, Arrhythmia",150,150,150,complete
+Surrogate: distilled tree,Gemini 3.6 Flash,"Turkish, Mice, Arrhythmia",150,150,150,complete
+Surrogate: distilled tree,Qwen2.5-14B,"Turkish, Mice, Arrhythmia",150,150,150,complete
+Surrogate: cross-fitted marginal,Gemini 3.6 Flash,"Turkish, Mice, Arrhythmia",150,150,150,complete
+Surrogate: cross-fitted marginal,Qwen2.5-14B,"Turkish, Mice, Arrhythmia",150,150,150,complete
+"FE = 3,000, B = 30",Gemini 3.6 Flash,"Mice, Arrhythmia",100,0,0,not completed
+"FE = 3,000, B = 30",Qwen2.5-14B,"Mice, Arrhythmia",100,100,100,complete
+wJ = 0.99,Gemini 3.6 Flash,"Turkish, Arrhythmia",100,100,100,complete
+wJ = 0.99,Qwen2.5-14B,"Turkish, Arrhythmia",100,100,100,complete
+bGWO1 transfer,Gemini 3.6 Flash,"Arrhythmia, Turkish",100,43,37,not completed; partial: 37 clean units
+bGWO1 transfer,Qwen2.5-14B,"Arrhythmia, Turkish",100,50,50,Arrhythmia complete; Turkish not run
+V-shaped transfer,Gemini 3.6 Flash,"Arrhythmia, Turkish",100,42,36,not completed; partial: 36 clean units
+V-shaped transfer,Qwen2.5-14B,Arrhythmia,50,50,50,complete
+Full state shuffle,Gemini 3.6 Flash,"Turkish, Mice, Arrhythmia",150,0,0,not completed
+Full state shuffle,Qwen2.5-14B,"Turkish, Mice, Arrhythmia",150,150,150,complete
+"Turkish, K = 3, B = 12",Gemini 3.6 Flash,Turkish,50,0,0,not completed
+"Turkish, K = 3, B = 12",Qwen2.5-14B,Turkish,50,50,50,complete
+"Turkish, no credit history",Gemini 3.6 Flash,Turkish,50,0,0,not completed
+"Turkish, no credit history",Qwen2.5-14B,Turkish,50,50,50,complete
+"Turkish, minimal prompt",Gemini 3.6 Flash,Turkish,50,0,0,not completed
+"Turkish, minimal prompt",Qwen2.5-14B,Turkish,50,50,50,complete
+V-shaped Turkish,Qwen2.5-14B,Turkish,50,50,50,complete
+inner 3×3 CV,Qwen2.5-14B,"Mice, Arrhythmia",100,100,100,complete
+Llama constrained intensity,Llama-8B,"Turkish, Mice, Arrhythmia",150,150,150,complete
+"Qwen-14B int8, Turkish core",Qwen-14B int8,Turkish,50,50,50,complete

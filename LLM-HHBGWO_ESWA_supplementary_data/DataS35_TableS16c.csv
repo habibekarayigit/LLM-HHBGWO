@@ -1,0 +1,109 @@
+Variant,Method,Dataset,Decision index,COMPACT,EXPLORE,KEEP,MUTATE,OPPOSITION,RESTART
+Informed prompt (base),LLM Gemini 3.6 Flash,Arrhythmia,1,0.06,0.04,0.9,0,0,0
+Informed prompt (base),LLM Gemini 3.6 Flash,Arrhythmia,2,0.48,0.04,0.44,0.02,0.02,0
+Informed prompt (base),LLM Gemini 3.6 Flash,Arrhythmia,3,0.62,0.3,0.04,0,0.04,0
+Informed prompt (base),LLM Gemini 3.6 Flash,Arrhythmia,4,0.78,0.1,0.02,0.04,0.06,0
+Informed prompt (base),LLM Gemini 3.6 Flash,Arrhythmia,5,0.8,0.02,0.02,0.04,0.02,0.1
+Informed prompt (base),LLM Gemini 3.6 Flash,Arrhythmia,6,0.8888888889,0,0,0.1111111111,0,0
+Informed prompt (base),LLM Gemini 3.6 Flash,Mice,1,0.18,0.02,0.8,0,0,0
+Informed prompt (base),LLM Gemini 3.6 Flash,Mice,2,0.52,0.14,0.32,0,0.02,0
+Informed prompt (base),LLM Gemini 3.6 Flash,Mice,3,0.24,0.64,0,0.02,0.1,0
+Informed prompt (base),LLM Gemini 3.6 Flash,Mice,4,0.4,0.08,0,0.1,0.34,0.08
+Informed prompt (base),LLM Gemini 3.6 Flash,Mice,5,0.42,0.08,0,0.18,0.02,0.3
+Informed prompt (base),LLM Gemini 3.6 Flash,Mice,6,0.5111111111,0.04444444444,0,0.3777777778,0,0.06666666667
+Informed prompt (base),LLM Gemini 3.6 Flash,Turkish,1,0.5,0,0.5,0,0,0
+Informed prompt (base),LLM Gemini 3.6 Flash,Turkish,2,0.82,0,0.18,0,0,0
+Informed prompt (base),LLM Gemini 3.6 Flash,Turkish,3,0.96,0,0.04,0,0,0
+Informed prompt (base),LLM Gemini 3.6 Flash,Turkish,4,0.98,0,0.02,0,0,0
+Informed prompt (base),LLM Gemini 3.6 Flash,Turkish,5,1,0,0,0,0,0
+Informed prompt (base),LLM Llama-3.1-8B,Arrhythmia,1,0,0,1,0,0,0
+Informed prompt (base),LLM Llama-3.1-8B,Arrhythmia,2,0,0,1,0,0,0
+Informed prompt (base),LLM Llama-3.1-8B,Arrhythmia,3,0,0,1,0,0,0
+Informed prompt (base),LLM Llama-3.1-8B,Arrhythmia,4,0,0,1,0,0,0
+Informed prompt (base),LLM Llama-3.1-8B,Arrhythmia,5,0,0,1,0,0,0
+Informed prompt (base),LLM Llama-3.1-8B,Arrhythmia,6,0.3888888889,0,0.6111111111,0,0,0
+Informed prompt (base),LLM Llama-3.1-8B,Mice,1,0,0,1,0,0,0
+Informed prompt (base),LLM Llama-3.1-8B,Mice,2,0,0,1,0,0,0
+Informed prompt (base),LLM Llama-3.1-8B,Mice,3,0,0,1,0,0,0
+Informed prompt (base),LLM Llama-3.1-8B,Mice,4,0,0,1,0,0,0
+Informed prompt (base),LLM Llama-3.1-8B,Mice,5,0,0,1,0,0,0
+Informed prompt (base),LLM Llama-3.1-8B,Mice,6,0.2051282051,0,0.7948717949,0,0,0
+Informed prompt (base),LLM Llama-3.1-8B,Turkish,1,0,0,1,0,0,0
+Informed prompt (base),LLM Llama-3.1-8B,Turkish,2,0,0,1,0,0,0
+Informed prompt (base),LLM Llama-3.1-8B,Turkish,3,0,0,1,0,0,0
+Informed prompt (base),LLM Llama-3.1-8B,Turkish,4,0,0,1,0,0,0
+Informed prompt (base),LLM Llama-3.1-8B,Turkish,5,0,0,1,0,0,0
+Informed prompt (base),LLM Phi-4-mini,Arrhythmia,1,0,1,0,0,0,0
+Informed prompt (base),LLM Phi-4-mini,Arrhythmia,2,0,0.98,0.02,0,0,0
+Informed prompt (base),LLM Phi-4-mini,Arrhythmia,3,0,0.98,0.02,0,0,0
+Informed prompt (base),LLM Phi-4-mini,Arrhythmia,4,0,0.98,0.02,0,0,0
+Informed prompt (base),LLM Phi-4-mini,Arrhythmia,5,0,0.98,0.02,0,0,0
+Informed prompt (base),LLM Phi-4-mini,Arrhythmia,6,0,1,0,0,0,0
+Informed prompt (base),LLM Phi-4-mini,Mice,1,0,1,0,0,0,0
+Informed prompt (base),LLM Phi-4-mini,Mice,2,0,0.98,0.02,0,0,0
+Informed prompt (base),LLM Phi-4-mini,Mice,3,0,0.98,0.02,0,0,0
+Informed prompt (base),LLM Phi-4-mini,Mice,4,0,0.98,0.02,0,0,0
+Informed prompt (base),LLM Phi-4-mini,Mice,5,0,0.98,0.02,0,0,0
+Informed prompt (base),LLM Phi-4-mini,Mice,6,0,0.9705882353,0.02941176471,0,0,0
+Informed prompt (base),LLM Phi-4-mini,Turkish,1,0,1,0,0,0,0
+Informed prompt (base),LLM Phi-4-mini,Turkish,2,0,0.96,0.04,0,0,0
+Informed prompt (base),LLM Phi-4-mini,Turkish,3,0,0.96,0.04,0,0,0
+Informed prompt (base),LLM Phi-4-mini,Turkish,4,0,0.96,0.04,0,0,0
+Informed prompt (base),LLM Phi-4-mini,Turkish,5,0,0.96,0.04,0,0,0
+Informed prompt (base),LLM Phi-4-mini,Turkish,6,0,1,0,0,0,0
+Informed prompt (base),LLM Qwen2.5-14B,Arrhythmia,1,0.46,0.36,0,0.18,0,0
+Informed prompt (base),LLM Qwen2.5-14B,Arrhythmia,2,0.24,0.74,0,0.02,0,0
+Informed prompt (base),LLM Qwen2.5-14B,Arrhythmia,3,0.36,0.58,0,0.06,0,0
+Informed prompt (base),LLM Qwen2.5-14B,Arrhythmia,4,0.16,0.82,0,0.02,0,0
+Informed prompt (base),LLM Qwen2.5-14B,Arrhythmia,5,0.32,0.66,0,0.02,0,0
+Informed prompt (base),LLM Qwen2.5-14B,Arrhythmia,6,0.1666666667,0.6666666667,0,0.05555555556,0,0.1111111111
+Informed prompt (base),LLM Qwen2.5-14B,Mice,1,0.36,0.5,0,0.12,0,0.02
+Informed prompt (base),LLM Qwen2.5-14B,Mice,2,0.26,0.7,0,0,0.02,0.02
+Informed prompt (base),LLM Qwen2.5-14B,Mice,3,0.3,0.64,0,0.04,0,0.02
+Informed prompt (base),LLM Qwen2.5-14B,Mice,4,0.16,0.82,0,0,0,0.02
+Informed prompt (base),LLM Qwen2.5-14B,Mice,5,0.22,0.64,0,0.04,0,0.1
+Informed prompt (base),LLM Qwen2.5-14B,Mice,6,0.1282051282,0.4615384615,0,0,0,0.4102564103
+Informed prompt (base),LLM Qwen2.5-14B,Turkish,1,0.36,0.64,0,0,0,0
+Informed prompt (base),LLM Qwen2.5-14B,Turkish,2,0.12,0.88,0,0,0,0
+Informed prompt (base),LLM Qwen2.5-14B,Turkish,3,0.32,0.68,0,0,0,0
+Informed prompt (base),LLM Qwen2.5-14B,Turkish,4,0.16,0.84,0,0,0,0
+Informed prompt (base),LLM Qwen2.5-14B,Turkish,5,0.24,0.76,0,0,0,0
+Informed prompt (base),LLM Qwen2.5-7B,Arrhythmia,1,1,0,0,0,0,0
+Informed prompt (base),LLM Qwen2.5-7B,Arrhythmia,2,1,0,0,0,0,0
+Informed prompt (base),LLM Qwen2.5-7B,Arrhythmia,3,1,0,0,0,0,0
+Informed prompt (base),LLM Qwen2.5-7B,Arrhythmia,4,1,0,0,0,0,0
+Informed prompt (base),LLM Qwen2.5-7B,Arrhythmia,5,1,0,0,0,0,0
+Informed prompt (base),LLM Qwen2.5-7B,Arrhythmia,6,1,0,0,0,0,0
+Informed prompt (base),LLM Qwen2.5-7B,Mice,1,1,0,0,0,0,0
+Informed prompt (base),LLM Qwen2.5-7B,Mice,2,1,0,0,0,0,0
+Informed prompt (base),LLM Qwen2.5-7B,Mice,3,1,0,0,0,0,0
+Informed prompt (base),LLM Qwen2.5-7B,Mice,4,1,0,0,0,0,0
+Informed prompt (base),LLM Qwen2.5-7B,Mice,5,1,0,0,0,0,0
+Informed prompt (base),LLM Qwen2.5-7B,Mice,6,1,0,0,0,0,0
+Informed prompt (base),LLM Qwen2.5-7B,Turkish,1,1,0,0,0,0,0
+Informed prompt (base),LLM Qwen2.5-7B,Turkish,2,1,0,0,0,0,0
+Informed prompt (base),LLM Qwen2.5-7B,Turkish,3,1,0,0,0,0,0
+Informed prompt (base),LLM Qwen2.5-7B,Turkish,4,1,0,0,0,0,0
+Informed prompt (base),LLM Qwen2.5-7B,Turkish,5,1,0,0,0,0,0
+No counters,LLM Gemini 3.6 Flash,Arrhythmia,1,0.04,0.02,0.92,0,0.02,0
+No counters,LLM Gemini 3.6 Flash,Arrhythmia,2,0.3,0.06,0.64,0,0,0
+No counters,LLM Gemini 3.6 Flash,Arrhythmia,3,0.58,0.34,0.08,0,0,0
+No counters,LLM Gemini 3.6 Flash,Arrhythmia,4,0.9,0.04,0,0.02,0.04,0
+No counters,LLM Gemini 3.6 Flash,Arrhythmia,5,1,0,0,0,0,0
+No counters,LLM Gemini 3.6 Flash,Arrhythmia,6,0.75,0,0,0.25,0,0
+No counters,LLM Gemini 3.6 Flash,Turkish,1,0.62,0,0.38,0,0,0
+No counters,LLM Gemini 3.6 Flash,Turkish,2,0.6,0,0.4,0,0,0
+No counters,LLM Gemini 3.6 Flash,Turkish,3,0.9,0,0.1,0,0,0
+No counters,LLM Gemini 3.6 Flash,Turkish,4,1,0,0,0,0,0
+No counters,LLM Gemini 3.6 Flash,Turkish,5,1,0,0,0,0,0
+No counters,LLM Qwen2.5-14B,Arrhythmia,1,0.14,0.28,0,0.54,0,0.04
+No counters,LLM Qwen2.5-14B,Arrhythmia,2,0.12,0.68,0,0.14,0,0.06
+No counters,LLM Qwen2.5-14B,Arrhythmia,3,0.14,0.68,0,0.12,0,0.06
+No counters,LLM Qwen2.5-14B,Arrhythmia,4,0.1,0.68,0,0.16,0,0.06
+No counters,LLM Qwen2.5-14B,Arrhythmia,5,0.08,0.74,0,0.12,0,0.06
+No counters,LLM Qwen2.5-14B,Arrhythmia,6,0.1538461538,0.3076923077,0,0,0,0.5384615385
+No counters,LLM Qwen2.5-14B,Turkish,1,0.32,0.54,0.08,0.06,0,0
+No counters,LLM Qwen2.5-14B,Turkish,2,0.28,0.7,0,0.02,0,0
+No counters,LLM Qwen2.5-14B,Turkish,3,0.32,0.66,0,0.02,0,0
+No counters,LLM Qwen2.5-14B,Turkish,4,0.32,0.66,0,0.02,0,0
+No counters,LLM Qwen2.5-14B,Turkish,5,0.34,0.64,0,0.02,0,0
