@@ -1,0 +1,17 @@
+Check,Result
+Wrapper runs (all cells of Campaign B),"23,985"
+"(Dataset, variant, fold, seed) units","2,150"
+Units with more than one generation-0 hash,0
+"Convergence warnings, inner fitness (all runs)",0
+Runs with fe_used = fe_max,"23,985 of 23,985"
+"Runs of the core and post-hoc core cells with a BGWO-family controller (decision counts, main text Section 3.4)","4,050"
+"LLM calls, Gemini 3.6 Flash: runs / calls / invalid first answers / repaired / fallbacks","735 / 6,315 / 63 / 63 / 62"
+"LLM calls, Llama-3.1-8B (original prompt): runs / calls / invalid first answers / repaired / fallbacks",150 / 807 / 807 / 807 / 792
+"LLM calls, Llama-3.1-8B (constrained intensity): runs / calls / invalid first answers / repaired / fallbacks",150 / 806 / 0 / 0 / 0
+"LLM calls, Llama-3.1-8B (clean prompt): runs / calls / invalid first answers / repaired / fallbacks",150 / 808 / 0 / 0 / 0
+"LLM calls, Phi-4-mini: runs / calls / invalid first answers / repaired / fallbacks",150 / 802 / 0 / 0 / 0
+"LLM calls, Qwen2.5-14B (8-bit): runs / calls / invalid first answers / repaired / fallbacks",50 / 250 / 0 / 0 / 0
+"LLM calls, Qwen2.5-14B: runs / calls / invalid first answers / repaired / fallbacks","2,350 / 20,401 / 0 / 0 / 0"
+"LLM calls, Qwen2.5-14B (state shuffle): runs / calls / invalid first answers / repaired / fallbacks",150 / 799 / 0 / 0 / 0
+"LLM calls, Qwen2.5-14B (full shuffle): runs / calls / invalid first answers / repaired / fallbacks",150 / 798 / 0 / 0 / 0
+"LLM calls, Qwen2.5-7B: runs / calls / invalid first answers / repaired / fallbacks",150 / 803 / 0 / 0 / 0

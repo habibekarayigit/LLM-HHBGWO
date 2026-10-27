@@ -1,0 +1,82 @@
+Cell,Method,Dataset,Decisions per run,Distinct arms,H(arm) bits,KEEP (%),Most frequent arms
+Informed prompt (base),FRRMAB-HH,Arrhythmia,276,6,2.470998287,15.57971014,RESTART-2 21%; MUTATE-2 21%; EXPLORE-2 20%; COMPACT-2 18%
+Informed prompt (base),FRRMAB-HH,Mice,285,6,2.44273974,17.89473684,COMPACT-2 24%; RESTART-2 19%; MUTATE-2 18%; EXPLORE-2 18%
+Informed prompt (base),FRRMAB-HH,Turkish,250,6,2.441270146,14.8,COMPACT-2 27%; MUTATE-2 20%; RESTART-2 18%; EXPLORE-2 17%
+Informed prompt (base),FRRMAB-HH (warm),Arrhythmia,271,1,0,0,COMPACT-2 100%
+Informed prompt (base),FRRMAB-HH (warm),Mice,289,1,0,100,KEEP-2 100%
+Informed prompt (base),FRRMAB-HH (warm),Turkish,250,1,0,0,COMPACT-2 100%
+Informed prompt (base),LLM Gemini 3.6 Flash,Arrhythmia,268,11,1.952473916,26.49253731,COMPACT-2 53%; KEEP-1 26%; EXPLORE-2 9%; COMPACT-3 3%
+Informed prompt (base),LLM Gemini 3.6 Flash,Mice,295,14,3.014613615,18.98305085,COMPACT-2 32%; KEEP-1 19%; EXPLORE-2 13%; MUTATE-2 7%
+Informed prompt (base),LLM Gemini 3.6 Flash,Turkish,250,4,0.7068189517,14.8,COMPACT-2 84%; KEEP-1 15%; COMPACT-3 1%; COMPACT-1 0%
+Informed prompt (base),LLM Llama-3.1-8B,Arrhythmia,268,2,0.1745408712,97.3880597,KEEP-1 97%; COMPACT-3 3%
+Informed prompt (base),LLM Llama-3.1-8B,Mice,289,2,0.1826288106,97.23183391,KEEP-1 97%; COMPACT-3 3%
+Informed prompt (base),LLM Llama-3.1-8B,Turkish,250,1,0,100,KEEP-1 100%
+Informed prompt (base),LLM Phi-4-mini,Arrhythmia,267,2,0.1122476389,1.498127341,EXPLORE-2 99%; KEEP-1 1%
+Informed prompt (base),LLM Phi-4-mini,Mice,284,2,0.1277770967,1.76056338,EXPLORE-2 98%; KEEP-1 2%
+Informed prompt (base),LLM Phi-4-mini,Turkish,251,2,0.2036971859,3.187250996,EXPLORE-2 97%; KEEP-1 3%
+Informed prompt (base),LLM Qwen2.5-14B,Arrhythmia,268,9,2.30602463,0,EXPLORE-2 39%; EXPLORE-1 24%; COMPACT-2 14%; COMPACT-1 13%
+Informed prompt (base),LLM Qwen2.5-14B,Mice,289,11,2.441942584,0,EXPLORE-2 37%; EXPLORE-1 26%; COMPACT-2 13%; COMPACT-1 11%
+Informed prompt (base),LLM Qwen2.5-14B,Turkish,250,5,1.851977835,0,EXPLORE-2 45%; EXPLORE-1 31%; COMPACT-2 12%; COMPACT-1 10%
+Informed prompt (base),LLM Qwen2.5-7B,Arrhythmia,264,1,0,0,COMPACT-1 100%
+Informed prompt (base),LLM Qwen2.5-7B,Mice,289,1,0,0,COMPACT-1 100%
+Informed prompt (base),LLM Qwen2.5-7B,Turkish,250,1,0,0,COMPACT-1 100%
+Informed prompt (base),Pooled marginal (Qwen2.5-14B),Arrhythmia,265,9,2.136753611,0,EXPLORE-2 44%; EXPLORE-1 28%; COMPACT-2 11%; COMPACT-1 10%
+Informed prompt (base),Pooled marginal (Qwen2.5-14B),Mice,291,9,2.139882643,0,EXPLORE-2 44%; EXPLORE-1 27%; COMPACT-2 11%; COMPACT-1 11%
+Informed prompt (base),Pooled marginal (Qwen2.5-14B),Turkish,250,9,2.147795097,0,EXPLORE-2 44%; EXPLORE-1 28%; COMPACT-2 11%; COMPACT-1 10%
+Informed prompt (base),Random-HH,Arrhythmia,266,18,4.148742747,15.78947368,RESTART-1 7%; MUTATE-3 7%; COMPACT-3 7%; RESTART-2 7%
+Informed prompt (base),Random-HH,Mice,290,18,4.15193938,15.86206897,MUTATE-3 7%; RESTART-1 7%; OPPOSITION-3 7%; COMPACT-3 7%
+Informed prompt (base),Random-HH,Turkish,250,18,4.146875739,15.2,RESTART-1 8%; MUTATE-3 7%; RESTART-2 7%; COMPACT-3 6%
+Informed prompt (base),Rule-HH,Arrhythmia,267,2,0.2304907254,0,EXPLORE-2 96%; RESTART-2 4%
+Informed prompt (base),Rule-HH,Mice,281,3,0.5606869231,0,EXPLORE-2 88%; RESTART-2 11%; MUTATE-1 1%
+Informed prompt (base),Rule-HH,Turkish,251,1,0,0,EXPLORE-2 100%
+Informed prompt (base),Rule-HH (calibrated),Arrhythmia,267,5,2.015069152,12.7340824,MUTATE-1 39%; EXPLORE-2 25%; COMPACT-2 20%; KEEP-1 13%
+Informed prompt (base),Rule-HH (calibrated),Mice,286,5,2.161384356,12.23776224,MUTATE-1 37%; COMPACT-2 24%; EXPLORE-2 14%; KEEP-1 12%
+Informed prompt (base),Rule-HH (calibrated),Turkish,250,4,1.75829579,6.4,MUTATE-1 45%; EXPLORE-2 27%; COMPACT-2 22%; KEEP-1 6%
+Informed prompt (base),UCB-HH,Arrhythmia,266,6,2.553298267,20.67669173,COMPACT-2 21%; KEEP-2 21%; MUTATE-2 17%; EXPLORE-2 15%
+Informed prompt (base),UCB-HH,Mice,284,6,2.553008688,20.77464789,COMPACT-2 21%; KEEP-2 21%; MUTATE-2 17%; EXPLORE-2 15%
+Informed prompt (base),UCB-HH,Turkish,250,6,2.53750402,16.8,COMPACT-2 24%; MUTATE-2 20%; KEEP-2 17%; EXPLORE-2 14%
+Informed prompt (base),UCB-HH (warm),Arrhythmia,271,1,0,0,COMPACT-2 100%
+Informed prompt (base),UCB-HH (warm),Mice,288,2,0.4820661481,89.58333333,KEEP-2 90%; COMPACT-2 10%
+Informed prompt (base),UCB-HH (warm),Turkish,250,1,0,0,COMPACT-2 100%
+"High authority, ρ = 0.3",FRRMAB-HH,Arrhythmia,1450,6,2.535760298,14,RESTART-2 23%; EXPLORE-2 19%; MUTATE-2 19%; COMPACT-2 16%
+"High authority, ρ = 0.3",FRRMAB-HH,Turkish,1450,6,2.558340033,14,RESTART-2 22%; EXPLORE-2 18%; MUTATE-2 18%; COMPACT-2 14%
+"High authority, ρ = 0.3",FRRMAB-HH (warm),Arrhythmia,1450,2,0.07385439718,0.8965517241,COMPACT-2 99%; KEEP-2 1%
+"High authority, ρ = 0.3",FRRMAB-HH (warm),Turkish,1450,1,0,0,COMPACT-2 100%
+"High authority, ρ = 0.3",LLM Gemini 3.6 Flash,Arrhythmia,1450,11,1.814302834,39.03448276,COMPACT-2 45%; KEEP-1 39%; COMPACT-1 8%; EXPLORE-2 3%
+"High authority, ρ = 0.3",LLM Gemini 3.6 Flash,Turkish,1450,5,0.8194994829,14.48275862,COMPACT-2 82%; KEEP-1 14%; COMPACT-1 3%; COMPACT-3 0%
+"High authority, ρ = 0.3",LLM Qwen2.5-14B,Arrhythmia,1450,6,0.4733754965,0,EXPLORE-1 93%; EXPLORE-2 5%; RESTART-2 1%; COMPACT-1 1%
+"High authority, ρ = 0.3",LLM Qwen2.5-14B,Turkish,1450,2,0.1175294801,0,EXPLORE-1 98%; EXPLORE-2 2%
+"High authority, ρ = 0.3",Pooled marginal (Qwen2.5-14B),Arrhythmia,1450,9,2.236398947,0,EXPLORE-2 41%; EXPLORE-1 28%; COMPACT-2 13%; COMPACT-1 11%
+"High authority, ρ = 0.3",Pooled marginal (Qwen2.5-14B),Turkish,1450,9,2.236398947,0,EXPLORE-2 41%; EXPLORE-1 28%; COMPACT-2 13%; COMPACT-1 11%
+"High authority, ρ = 0.3",Random-HH,Arrhythmia,1450,18,4.163507485,16.4137931,RESTART-1 7%; EXPLORE-1 6%; EXPLORE-2 6%; KEEP-1 6%
+"High authority, ρ = 0.3",Random-HH,Turkish,1450,18,4.163507485,16.4137931,RESTART-1 7%; EXPLORE-1 6%; EXPLORE-2 6%; KEEP-1 6%
+"High authority, ρ = 0.3",UCB-HH,Arrhythmia,1450,6,2.447849125,20.68965517,COMPACT-2 32%; KEEP-2 21%; EXPLORE-2 13%; RESTART-2 12%
+"High authority, ρ = 0.3",UCB-HH,Turkish,1450,6,2.509696912,22.48275862,COMPACT-2 26%; KEEP-2 22%; RESTART-2 14%; EXPLORE-2 13%
+"High authority, ρ = 0.3",UCB-HH (warm),Arrhythmia,1450,2,0.7550982562,21.72413793,COMPACT-2 78%; KEEP-2 22%
+"High authority, ρ = 0.3",UCB-HH (warm),Turkish,1450,2,0.821498168,25.65517241,COMPACT-2 74%; KEEP-2 26%
+"High authority, ρ = 0.5",FRRMAB-HH,Arrhythmia,1450,6,2.55307905,14.06896552,RESTART-2 23%; MUTATE-2 19%; EXPLORE-2 18%; KEEP-2 14%
+"High authority, ρ = 0.5",FRRMAB-HH,Turkish,1450,6,2.554236758,14,RESTART-2 22%; MUTATE-2 19%; EXPLORE-2 18%; OPPOSITION-2 15%
+"High authority, ρ = 0.5",FRRMAB-HH (warm),Arrhythmia,1450,2,0.1529047043,2.206896552,COMPACT-2 98%; KEEP-2 2%
+"High authority, ρ = 0.5",FRRMAB-HH (warm),Turkish,1450,2,0.0920178223,1.172413793,COMPACT-2 99%; KEEP-2 1%
+"High authority, ρ = 0.5",LLM Qwen2.5-14B,Arrhythmia,1450,7,1.102616401,0.06896551724,EXPLORE-1 60%; EXPLORE-2 39%; COMPACT-1 1%; COMPACT-2 1%
+"High authority, ρ = 0.5",LLM Qwen2.5-14B,Turkish,1450,2,0.2609529108,0,EXPLORE-1 96%; EXPLORE-2 4%
+"High authority, ρ = 0.5",Pooled marginal (Qwen2.5-14B),Arrhythmia,1450,9,2.236398947,0,EXPLORE-2 41%; EXPLORE-1 28%; COMPACT-2 13%; COMPACT-1 11%
+"High authority, ρ = 0.5",Pooled marginal (Qwen2.5-14B),Turkish,1450,9,2.236398947,0,EXPLORE-2 41%; EXPLORE-1 28%; COMPACT-2 13%; COMPACT-1 11%
+"High authority, ρ = 0.5",Random-HH,Arrhythmia,1450,18,4.163507485,16.4137931,RESTART-1 7%; EXPLORE-1 6%; EXPLORE-2 6%; KEEP-1 6%
+"High authority, ρ = 0.5",Random-HH,Turkish,1450,18,4.163507485,16.4137931,RESTART-1 7%; EXPLORE-1 6%; EXPLORE-2 6%; KEEP-1 6%
+"High authority, ρ = 0.5",UCB-HH,Arrhythmia,1450,6,2.480297861,22.75862069,COMPACT-2 28%; KEEP-2 23%; EXPLORE-2 13%; RESTART-2 13%
+"High authority, ρ = 0.5",UCB-HH,Turkish,1450,6,2.518404892,23.44827586,COMPACT-2 24%; KEEP-2 23%; RESTART-2 14%; EXPLORE-2 13%
+"High authority, ρ = 0.5",UCB-HH (warm),Arrhythmia,1450,2,0.8951536647,31.17241379,COMPACT-2 69%; KEEP-2 31%
+"High authority, ρ = 0.5",UCB-HH (warm),Turkish,1450,2,0.9460644635,36.4137931,COMPACT-2 64%; KEEP-2 36%
+No counters,LLM Gemini 3.6 Flash,Arrhythmia,262,8,1.628098889,31.29770992,COMPACT-2 55%; KEEP-1 31%; EXPLORE-2 9%; COMPACT-3 2%
+No counters,LLM Gemini 3.6 Flash,Turkish,250,3,0.847565184,17.6,COMPACT-2 80%; KEEP-1 18%; COMPACT-3 3%
+No counters,LLM Qwen2.5-14B,Arrhythmia,263,6,2.020279735,0,EXPLORE-1 53%; MUTATE-1 16%; COMPACT-1 12%; RESTART-2 8%
+No counters,LLM Qwen2.5-14B,Turkish,250,7,1.351283754,1.6,EXPLORE-1 64%; COMPACT-1 29%; MUTATE-1 2%; COMPACT-2 2%
+"FE = 3,000, B = 30",FRRMAB-HH,Arrhythmia,1500,6,2.310944833,29.2,COMPACT-2 30%; KEEP-2 29%; MUTATE-2 15%; EXPLORE-2 13%
+"FE = 3,000, B = 30",FRRMAB-HH,Mice,1500,6,2.408344233,33.53333333,KEEP-2 34%; MUTATE-2 17%; COMPACT-2 16%; EXPLORE-2 15%
+"FE = 3,000, B = 30",LLM Qwen2.5-14B,Arrhythmia,1500,8,1.849581021,0,EXPLORE-2 55%; EXPLORE-1 27%; COMPACT-2 7%; RESTART-3 4%
+"FE = 3,000, B = 30",LLM Qwen2.5-14B,Mice,1500,9,2.252337757,0,EXPLORE-2 41%; EXPLORE-1 18%; RESTART-3 17%; COMPACT-2 16%
+"FE = 3,000, B = 30",Random-HH,Arrhythmia,1500,18,4.164247286,16.33333333,RESTART-1 7%; EXPLORE-1 6%; EXPLORE-2 6%; RESTART-3 6%
+"FE = 3,000, B = 30",Random-HH,Mice,1500,18,4.164247286,16.33333333,RESTART-1 7%; EXPLORE-1 6%; EXPLORE-2 6%; RESTART-3 6%
+"FE = 3,000, B = 30",UCB-HH,Arrhythmia,1500,6,2.472420104,17.93333333,COMPACT-2 32%; KEEP-2 18%; EXPLORE-2 13%; MUTATE-2 13%
+"FE = 3,000, B = 30",UCB-HH,Mice,1500,6,2.554014078,22.53333333,KEEP-2 23%; COMPACT-2 20%; MUTATE-2 16%; EXPLORE-2 15%

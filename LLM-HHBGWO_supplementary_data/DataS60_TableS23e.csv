@@ -1,0 +1,12 @@
+Controller or operator,Converges to,Evidence
+Qwen2.5-7B,Const COMPACT-1,identical final masks in 150/150 units
+Phi-4-mini,Const EXPLORE-2,identical final masks in 146/150 units
+Llama-3.1-8B (original prompt),plain BGWO,98.1% fallbacks to KEEP-1; identical masks in 140/150 units
+Llama-3.1-8B (constrained intensity),Const COMPACT-3,identical final masks in 150/150 units; Const COMPACT-3 − BGWO −0.41/−1.16/−0.12 pp (Turkish/Mice/Arrhythmia)
+"Gemini 3.6 Flash, Turkish",close to Const COMPACT-2,identical masks in 19/50 units; COMPACT-2 in 84% of decisions
+"Gemini 3.6 Flash, Mice and Arrhythmia",not near-constant,identical masks with Const COMPACT-2 in 0/50 units each
+Rule-HH (online quantiles),Const EXPLORE-2,identical final masks in 127/150 units
+FRRMAB-HH (cold start),one arm per run,a single arm in all decisions of 77% of runs
+UCB-HH (warm),"Const COMPACT-2 (Turkish, Arrhythmia); plain BGWO (Mice)",identical masks in 100/100 Turkish and Arrhythmia units; on Mice identical to BGWO in 36/50; single arm in 84% of runs
+FRRMAB-HH (warm),"Const COMPACT-2 (Turkish, Arrhythmia); plain BGWO (Mice)",identical masks in 100/100 Turkish and Arrhythmia units; on Mice identical to BGWO in 50/50; single arm in 100% of runs
+OPPOSITION / RESTART operators,nearly inert,"8 of 6,092 and 638 of 8,650 targeted candidates accepted over all core-cell decisions (0.13% / 7.4%); Const OPPOSITION-2 ≡ Const RESTART-2 in 52/150 units"
