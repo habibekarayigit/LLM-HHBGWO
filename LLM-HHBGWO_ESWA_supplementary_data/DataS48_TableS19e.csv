@@ -1,2 +1,0 @@
-n,Action agreement,Arm agreement,Cohen κ (action),Cohen κ (arm),Reason agreement,"Valid, NF4","Valid, fp16",NF4 replay = logged arm,Latency NF4 (s),Latency fp16 (s),"Model revision, NF4","Model revision, fp16",Quantization A,Quantization B,Both valid,Action agreement (both valid),Arm agreement (both valid)
-100,0.87,0.87,0.08963585434,0.08963585434,0.4,1,0.89,1,1.359702263,1.861719427,cfbefacb99257ffa30c83adab238a50856ac3083,cfbefacb99257ffa30c83adab238a50856ac3083,NF4,fp16,89,0.9775280899,0.9775280899

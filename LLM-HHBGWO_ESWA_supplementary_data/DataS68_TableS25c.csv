@@ -1,7 +1,0 @@
-Method,Dataset,Arm
-Rule-HH,Arrhythmia,EXPLORE-2 96%; RESTART-2 4%
-Rule-HH,Mice,EXPLORE-2 88%; RESTART-2 11%; MUTATE-1 1%
-Rule-HH,Turkish,EXPLORE-2 100%
-Rule-HH (calibrated),Arrhythmia,MUTATE-1 39%; EXPLORE-2 25%; COMPACT-2 20%; KEEP-1 13%; RESTART-2 3%
-Rule-HH (calibrated),Mice,MUTATE-1 37%; COMPACT-2 24%; EXPLORE-2 14%; KEEP-1 12%; RESTART-2 12%
-Rule-HH (calibrated),Turkish,MUTATE-1 45%; EXPLORE-2 27%; COMPACT-2 22%; KEEP-1 6%
